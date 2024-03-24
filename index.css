@@ -198,7 +198,6 @@ button:focus {
   .top-section {
     width: auto;
     gap: 10px;
-    border: 1px solid red;
     padding-left: 15px;
     padding-right: 15px;
   }

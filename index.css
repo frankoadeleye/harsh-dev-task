@@ -2,26 +2,30 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
+  width: 100%
 }
 p {
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 button,
 button:focus {
   outline-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .top-section {
   background: #28293e;
   display: flex;
   flex-direction: column;
   gap: 100px;
-  font-family: Epilogue, sans-serif;
+  font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
+  padding-bottom: 350px;
 }
 .top-section .navbar {
-  width: 100%;
+  width: 100%
 }
 .top-section .navbar .nav-content-wrap {
   display: flex;
@@ -32,21 +36,21 @@ button:focus {
   width: 1200px;
   margin: auto;
   background: #28293e;
-  height: 80px;
+  height: 80px
 }
 .top-section .navbar .logo {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   object-position: center;
-  cursor: pointer;
+  cursor: pointer
 }
 .top-section .navbar .links {
   display: flex;
   align-items: center;
   list-style-type: none;
   gap: 100px;
-  font-family: inherit;
+  font-family: inherit
 }
 .top-section .navbar .links li {
   font-size: 16px;
@@ -54,7 +58,7 @@ button:focus {
   line-height: 32px;
   text-align: center;
   color: #fff;
-  cursor: pointer;
+  cursor: pointer
 }
 .top-section .navbar .contact-us-btn {
   width: 138px;
@@ -72,17 +76,17 @@ button:focus {
   background: 0 0;
   color: #fff;
   cursor: pointer;
-  transition: 0.3s;
+  transition: .3s
 }
 .top-section .navbar .menu-icon {
-  display: none;
+  display: none
 }
 .top-section .navbar .contact-us-btn:hover {
   background: #fff;
-  color: #28293e;
+  color: #28293e
 }
 .top-section .banner {
-  width: 100%;
+  width: 100%
 }
 .top-section .banner .banner-content-wrap {
   max-width: 100%;
@@ -92,12 +96,12 @@ button:focus {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  min-height: 100px;
+  min-height: 100px
 }
 .top-section .banner .content {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 25px
 }
 .top-section .banner .content .sub-heading {
   font-family: inherit;
@@ -107,7 +111,7 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   color: #ef6d58;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 .top-section .banner .content .main-heading {
   font-family: inherit;
@@ -116,7 +120,7 @@ button:focus {
   line-height: 80px;
   letter-spacing: -2px;
   text-align: left;
-  color: #fff;
+  color: #fff
 }
 .top-section .banner .content .small-text {
   font-family: inherit;
@@ -125,11 +129,12 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #ffffffa3;
+  max-width: 470px;
 }
 .top-section .banner .content .action-btns {
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: center
 }
 .top-section .banner .content .action-btns button:first-child {
   background: #ef6d58;
@@ -142,42 +147,40 @@ button:focus {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 900;
-  line-height: 14.35px;
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
-  transition: 0.3s;
+  transition: .3s;
   border: 1px solid #ef6d58;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .top-section .banner .content .action-btns button:first-child:hover {
   border: 1px solid #ef6d58;
-  background: 0 0;
+  background: 0 0
 }
 .top-section .banner .content .action-btns button:nth-child(2) {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
-  line-height: 32px;
   text-align: left;
   color: #fff;
   cursor: pointer;
   background: 0 0;
-  border: none;
+  border: none
 }
 .top-section .banner .illustration {
   object-fit: contain;
-  object-position: center;
+  object-position: center
 }
 .top-section .horizontal-line {
   height: 1px;
   width: 1200px;
   margin: auto;
   background: #3a3c56;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .top-section .features-section {
-  width: 100%;
+  width: 100%
 }
 .top-section .features-section .features-section-wrap {
   max-width: 100%;
@@ -187,12 +190,12 @@ button:focus {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  min-height: 100px;
+  min-height: 100px
 }
 .top-section .features-section .features-section-wrap .main-text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 30px
 }
 .top-section .features-section .features-section-wrap .main-text .sub-heading {
   font-family: inherit;
@@ -202,7 +205,7 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   color: #ef6d58;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 .top-section .features-section .features-section-wrap .main-text .main-heading {
   font-family: inherit;
@@ -211,7 +214,7 @@ button:focus {
   line-height: 64px;
   letter-spacing: -1px;
   text-align: left;
-  color: #fff;
+  color: #fff
 }
 .top-section .features-section .features-section-wrap .main-text .extra {
   font-family: inherit;
@@ -220,18 +223,14 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #fff;
-  cursor: pointer;
+  cursor: pointer
 }
 .top-section .features-section .features-section-wrap .main-features {
   display: flex;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: flex-start
 }
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .professional {
+.top-section .features-section .features-section-wrap .main-features .professional {
   width: 336px;
   height: 336px;
   border-radius: 6px 6px 0px 6px;
@@ -243,85 +242,42 @@ button:focus {
   padding-right: 40px;
   gap: 30px;
   justify-content: center;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
-
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .professional
-  .professional-feature-icon {
+.top-section .features-section .features-section-wrap .main-features .professional .professional-feature-icon {
   width: 80px;
   height: 80px;
   background: #ef6c57;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 50%
 }
-
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .professional
-  .professional-feature-main-text,
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .accessibility
-  .accessibility-feature-main-text {
+.top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text,
+.top-section .features-section .features-section-wrap .main-features .professional .professional-feature-main-text {
   font-family: inherit;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
   text-align: left;
-  color: #391400;
+  color: #391400
 }
-
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .accessibility
-  .accessibility-feature-main-text {
-  color: #ffffff;
+.top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text {
+  color: #fff
 }
-
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .professional
-  .professional-feature-sub-text,
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .accessibility
-  .accessibility-feature-sub-text {
+.top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-sub-text,
+.top-section .features-section .features-section-wrap .main-features .professional .professional-feature-sub-text {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  color: #391400a3;
+  color: #391400a3
 }
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .accessibility
-  .accessibility-feature-sub-text {
-  color: #ffffffa3;
+.top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-sub-text {
+  color: #ffffffa3
 }
-.top-section
-  .features-section
-  .features-section-wrap
-  .main-features
-  .accessibility {
+.top-section .features-section .features-section-wrap .main-features .accessibility {
   width: 336px;
   height: 272px;
   border-radius: 0px 6px 6px 0px;
@@ -336,24 +292,370 @@ button:focus {
   padding-top: 60px;
   gap: 30px;
   justify-content: center;
+  box-sizing: border-box
+}
+.top-section .webflow-section {
+  width: 100%;
+  margin: 80px auto;
+}
+.top-section .webflow-section .webflow-section-wrap {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100px;
+  gap: 150px;
+}
+.top-section .webflow-section .webflow-section-wrap .illustration{
+  max-width: 100%;
+  object-fit: contain;
+  max-height: 100%;
+  object-position: center;
+}
+
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading{
+  font-family: inherit;
+font-size: 56px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: -1px;
+text-align: left;
+  color: #FFFFFF;
+}
+
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading{
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFFA3;
+  max-width: 470px;
+}
+
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button{
+  font-family: inherit;
+  width: 170px;
+  height: 48px;
+  top: 1984px;
+  left: 835px;
+  gap: 0px;
+  opacity: 0px;
+font-size: 14px;
+font-weight: 900;
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+box-sizing: border-box;
+border: 1px solid #B550F8;
+background: #B550F8;
+  color: #FFFFFF;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button:hover{
+  background: transparent;
+}
+
+.top-section .service-section{
+  width: 100%;
+}
+.top-section .service-section .service-section-wrap{
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.top-section .service-section .service-section-wrap .service-text-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top-section .service-section .service-section-wrap .service-text-section .service-sub-heading{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #EF6D58;
+  text-transform: uppercase;
+}
+
+.top-section .service-section .service-section-wrap .service-text-section .service-main-heading{
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: capitalize;
+  max-width: 333px;
+}
+
+.mid-section{
+  background: #FDF0E9;
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue,sans-serif;
+  font-optical-sizing: auto;
+  padding-bottom: 300px;
+}
+.mid-section .webflow-expert-stages{
+  width: 100%;
+  position: relative;
+}
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -300px;
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item{
+  width: 391px;
+height: 400px;
+gap: 0px;
+border-radius: 6px 0px 0px 6px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #F3D1BF;
+  flex: 1 1 0;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(2){
+border-radius:0px;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3){
+  border-radius: 0px 6px 6px 0px;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon{
+  width: 80px;
+  height: 80px;
+  background: #ef6c57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .main-text{
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .sub-text{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400a3;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .extra-text{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  cursor: pointer;
+}
+
+.mid-section .video-reel-section{
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  top: -150px;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap{
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 150px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container{
+  width: 570px;
+height: 368px;
+position: relative;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element{
+width: 570px;
+height: 368px;
+opacity: 0px;
+box-sizing: border-box;
+border-radius: 6px;
+background: url('https://iili.io/JhDxeig.png');
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .video-timestamp{
+  width: 47px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0px;
+background: rgba(87,11,0,0.24);
+position: absolute;
+left: 5%;
+bottom: 5%;
+color: #ffffff;
+font-family: inherit;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+border-radius: 6px;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button{
+  position: absolute;
+  margin: auto;
+  cursor: pointer;
+  left: 211px;
+  top: 110px;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
   box-sizing: border-box;
 }
-@media (max-width: 1300px) {
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-sub-heading{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #EF6D58;
+}
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading{
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: left;
+  color: #391400;
+  max-width: 469px;
+}
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-paragraph{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3;
+  max-width: 470px;
+}
+
+
+@media (max-width:1300px) {
   .top-section .banner .banner-content-wrap,
+  .top-section .features-section .features-section-wrap,
   .top-section .navbar .nav-content-wrap,
-  .top-section .features-section .features-section-wrap {
+  .top-section .webflow-section .webflow-section-wrap,.mid-section .webflow-expert-stages .webflow-expert-stages-wrap,.top-section .service-section .service-section-wrap,.mid-section .video-reel-section .video-reel-section-wrap {
     width: 950px;
   }
   .top-section .horizontal-line {
     width: 950px;
   }
+
+  .mid-section .video-reel-section .video-reel-section-wrap{
+    gap: 100px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container{
+    width: 400px;
+  height: 360px;
+  position: relative;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  }
+  
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element{
+  width: 400px;
+  height: 360px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button{
+    position: absolute;
+    margin: auto;
+    cursor: pointer;
+    left: 126px;
+    top: 106px;
+  }
 }
-@media (max-width: 1024px) {
-  .top-section {
+@media (max-width:1024px) {
+  .top-section,.mid-section {
     width: auto;
     gap: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .top-section .horizontal-line {
     width: 100%;
@@ -400,32 +702,16 @@ button:focus {
     gap: 10px;
     align-items: center;
   }
-
   .top-section .features-section .features-section-wrap {
     flex-direction: column;
     gap: 50px;
   }
-
-  .top-section .features-section .features-section-wrap .main-text,
   .top-section .features-section .features-section-wrap .main-features,
-  .top-section
-    .features-section
-    .features-section-wrap
-    .main-features
-    .professional
-    .top-section
-    .features-section
-    .features-section-wrap
-    .main-features
-    .accessibility {
+  .top-section .features-section .features-section-wrap .main-features .professional .top-section .features-section .features-section-wrap .main-features .accessibility,
+  .top-section .features-section .features-section-wrap .main-text {
     width: 100%;
   }
-
-  .top-section
-    .features-section
-    .features-section-wrap
-    .main-text
-    .main-heading {
+  .top-section .features-section .features-section-wrap .main-text .main-heading {
     font-family: inherit;
     font-size: 40px;
     font-weight: 800;
@@ -433,22 +719,109 @@ button:focus {
     text-align: left;
     color: #fff;
   }
-}
-
-@media (max-width: 768px) {
-  .top-section .features-section .features-section-wrap .main-features {
+  .top-section .webflow-section .webflow-section-wrap {
+    display: flex;
     flex-direction: column;
+    gap: 30px;
   }
-  .top-section
-    .features-section
-    .features-section-wrap
-    .main-features
-    .professional,
-  .top-section
-    .features-section
-    .features-section-wrap
-    .main-features
-    .accessibility {
+  .top-section .webflow-section .webflow-section-wrap .illustration,
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section {
     width: 100%;
   }
+
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading{
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .mid-section .video-reel-section{
+    top: -200px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap{
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section{
+    gap: 20px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container,.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element{
+    width: 100%;
+    max-width: 500px;
+    height: 212px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button{
+    position: absolute;
+    left: 176px;
+    top: 30px;
+  }
+}
+@media (max-width:768px) {
+  .top-section .features-section .features-section-wrap .main-features,.mid-section .webflow-expert-stages .webflow-expert-stages-wrap {
+    flex-direction: column
+  }
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item{
+    width: 329px;
+    height: 432px;
+    top: 3216px;
+    left: 23px;
+    gap: 0px;
+    border-radius: 6px 6px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px;   
+    width: 100%;
+  }
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(2){
+    border-radius: 0px;
+  }
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3){
+    border-radius: 0px 0px 6px 6px;
+  }
+  .top-section .features-section .features-section-wrap .main-features .accessibility,
+  .top-section .features-section .features-section-wrap .main-features .professional {
+    width: 100%;
+  }
+  .top-section .features-section .features-section-wrap .main-features .professional{
+    border-radius: 6px 6px 0px 0px;
+  }
+  .top-section .features-section .features-section-wrap .main-features .accessibility{
+    border-radius: 0px 0px 6px 6px;
+  }
+}
+
+@media (max-width: 600px){
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container,.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element{
+    max-width: 320px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button{
+    position: absolute;
+    left: 86px;
+    top: 30px;
+  }
+
+}
+
+@media (max-width: 360px){
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container,.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element{
+    max-width: 280px;
+  }
+
+  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button{
+    position: absolute;
+    left: 66px;
+    top: 30px;
+  }
+
 }

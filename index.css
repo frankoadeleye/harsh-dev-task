@@ -4,37 +4,36 @@ body {
   box-sizing: border-box;
   width: 100%;
 }
-
+p {
+  margin: 0;
+  padding: 0;
+}
 button,
 button:focus {
   outline-style: none;
 }
-
 .top-section {
   background: #28293e;
   display: flex;
   flex-direction: column;
   gap: 100px;
-  font-family: "Epilogue", sans-serif;
+  font-family: Epilogue, sans-serif;
   font-optical-sizing: auto;
 }
-
 .top-section .navbar {
   width: 100%;
 }
-
 .top-section .navbar .nav-content-wrap {
   display: flex;
   background: inherit;
   align-items: center;
   max-width: 100%;
   justify-content: space-between;
-  width: 1100px;
+  width: 1200px;
   margin: auto;
   background: #28293e;
   height: 80px;
 }
-
 .top-section .navbar .logo {
   max-width: 100%;
   max-height: 100%;
@@ -42,7 +41,6 @@ button:focus {
   object-position: center;
   cursor: pointer;
 }
-
 .top-section .navbar .links {
   display: flex;
   align-items: center;
@@ -50,16 +48,14 @@ button:focus {
   gap: 100px;
   font-family: inherit;
 }
-
 .top-section .navbar .links li {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
-
 .top-section .navbar .contact-us-btn {
   width: 138px;
   height: 48px;
@@ -73,28 +69,24 @@ button:focus {
   font-weight: 900;
   line-height: 14.35px;
   text-align: center;
-  background: transparent;
-  color: #ffffff;
+  background: 0 0;
+  color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
-
-.top-section .navbar .menu-icon{
+.top-section .navbar .menu-icon {
   display: none;
 }
-
 .top-section .navbar .contact-us-btn:hover {
-  background: #ffffff;
+  background: #fff;
   color: #28293e;
 }
-
 .top-section .banner {
   width: 100%;
 }
-
 .top-section .banner .banner-content-wrap {
   max-width: 100%;
-  width: 1100px;
+  width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -102,13 +94,11 @@ button:focus {
   box-sizing: border-box;
   min-height: 100px;
 }
-
 .top-section .banner .content {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-
 .top-section .banner .content .sub-heading {
   font-family: inherit;
   font-size: 16px;
@@ -119,7 +109,6 @@ button:focus {
   color: #ef6d58;
   text-transform: uppercase;
 }
-
 .top-section .banner .content .main-heading {
   font-family: inherit;
   font-size: 72px;
@@ -127,9 +116,8 @@ button:focus {
   line-height: 80px;
   letter-spacing: -2px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
 }
-
 .top-section .banner .content .small-text {
   font-family: inherit;
   font-size: 16px;
@@ -138,20 +126,18 @@ button:focus {
   text-align: left;
   color: #ffffffa3;
 }
-
 .top-section .banner .content .action-btns {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-
 .top-section .banner .content .action-btns button:first-child {
   background: #ef6d58;
   width: 154px;
   height: 48px;
   gap: 0px;
   opacity: 0px;
-  color: #ffffff;
+  color: #fff;
   font-family: inherit;
   text-transform: uppercase;
   font-size: 14px;
@@ -164,89 +150,238 @@ button:focus {
   border: 1px solid #ef6d58;
   box-sizing: border-box;
 }
-
 .top-section .banner .content .action-btns button:first-child:hover {
   border: 1px solid #ef6d58;
-  background: transparent;
+  background: 0 0;
 }
-
 .top-section .banner .content .action-btns button:nth-child(2) {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
-  background: transparent;
+  background: 0 0;
   border: none;
 }
-
 .top-section .banner .illustration {
   object-fit: contain;
   object-position: center;
 }
-
-
-.top-section .horizontal-line{
+.top-section .horizontal-line {
   height: 1px;
-  width: 1100px;
+  width: 1200px;
   margin: auto;
-  background: #3A3C56;
+  background: #3a3c56;
   box-sizing: border-box;
-  margin-bottom: 100px;
+}
+.top-section .features-section {
+  width: 100%;
+}
+.top-section .features-section .features-section-wrap {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100px;
+}
+.top-section .features-section .features-section-wrap .main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.top-section .features-section .features-section-wrap .main-text .sub-heading {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #ef6d58;
+  text-transform: uppercase;
+}
+.top-section .features-section .features-section-wrap .main-text .main-heading {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fff;
+}
+.top-section .features-section .features-section-wrap .main-text .extra {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+}
+.top-section .features-section .features-section-wrap .main-features {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .professional {
+  width: 336px;
+  height: 336px;
+  border-radius: 6px 6px 0px 6px;
+  opacity: 0px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .professional
+  .professional-feature-icon {
+  width: 80px;
+  height: 80px;
+  background: #ef6c57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .professional
+  .professional-feature-main-text,
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .accessibility
+  .accessibility-feature-main-text {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+}
+
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .accessibility
+  .accessibility-feature-main-text {
+  color: #ffffff;
+}
+
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .professional
+  .professional-feature-sub-text,
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .accessibility
+  .accessibility-feature-sub-text {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400a3;
+}
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .accessibility
+  .accessibility-feature-sub-text {
+  color: #ffffffa3;
+}
+.top-section
+  .features-section
+  .features-section-wrap
+  .main-features
+  .accessibility {
+  width: 336px;
+  height: 272px;
+  border-radius: 0px 6px 6px 0px;
+  border: 1px 0 0 0;
+  opacity: 0px;
+  background: 0 0;
+  border: 1px solid #3a3c56;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60px;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+}
 @media (max-width: 1300px) {
+  .top-section .banner .banner-content-wrap,
   .top-section .navbar .nav-content-wrap,
-  .top-section .banner .banner-content-wrap {
+  .top-section .features-section .features-section-wrap {
     width: 950px;
   }
-
-  .top-section .horizontal-line{
+  .top-section .horizontal-line {
     width: 950px;
   }
 }
-
 @media (max-width: 1024px) {
   .top-section {
     width: auto;
     gap: 10px;
     padding-left: 15px;
     padding-right: 15px;
-  } 
-
-  .top-section .horizontal-line{
+  }
+  .top-section .horizontal-line {
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
   }
-  .top-section .navbar .menu-icon{
+  .top-section .navbar .menu-icon {
     display: flex;
     cursor: pointer;
   }
   .top-section .navbar .link {
     width: 100%;
   }
-  .top-section .navbar .links,
-  .top-section .navbar .contact-us-btn {
+  .top-section .navbar .contact-us-btn,
+  .top-section .navbar .links {
     display: none;
   }
-
   .top-section .banner .banner-content-wrap {
     flex-direction: column;
     flex-flow: column-reverse;
   }
-
-  .top-section .banner .illustration,
-  .top-section .banner .content {
-    width: 100%;
-  }
-
+  .top-section .banner .content,
   .top-section .banner .illustration {
     width: 100%;
   }
-
+  .top-section .banner .illustration {
+    width: 100%;
+  }
   .top-section .banner .content .main-heading {
     font-size: 56px;
     font-weight: 800;
@@ -254,17 +389,66 @@ button:focus {
     letter-spacing: -1px;
     text-align: left;
   }
-
   .top-section .banner .content .small-text {
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
   }
-
   .top-section .banner .content .action-btns {
     display: flex;
     gap: 10px;
     align-items: center;
+  }
+
+  .top-section .features-section .features-section-wrap {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .top-section .features-section .features-section-wrap .main-text,
+  .top-section .features-section .features-section-wrap .main-features,
+  .top-section
+    .features-section
+    .features-section-wrap
+    .main-features
+    .professional
+    .top-section
+    .features-section
+    .features-section-wrap
+    .main-features
+    .accessibility {
+    width: 100%;
+  }
+
+  .top-section
+    .features-section
+    .features-section-wrap
+    .main-text
+    .main-heading {
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-section .features-section .features-section-wrap .main-features {
+    flex-direction: column;
+  }
+  .top-section
+    .features-section
+    .features-section-wrap
+    .main-features
+    .professional,
+  .top-section
+    .features-section
+    .features-section-wrap
+    .main-features
+    .accessibility {
+    width: 100%;
   }
 }

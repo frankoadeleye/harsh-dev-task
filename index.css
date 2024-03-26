@@ -514,12 +514,17 @@ button:focus {
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
   width: 570px;
   height: 368px;
-  position: relative
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element {
   width: 570px;
   height: 368px;
   opacity: 0px;
+  position: absolute;
   box-sizing: border-box;
   border-radius: 6px;
   background: url('https://iili.io/JhDxeig.png')
@@ -542,13 +547,6 @@ button:focus {
   line-height: 32px;
   text-align: left;
   border-radius: 6px
-}
-.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
-  position: absolute;
-  margin: auto;
-  cursor: pointer;
-  left: 211px;
-  top: 110px
 }
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section {
   display: flex;
@@ -585,6 +583,13 @@ button:focus {
   color: #391400A3;
   max-width: 470px
 }
+
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+}
 @media (max-width:1300px) {
   .mid-section .video-reel-section .video-reel-section-wrap,
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap,
@@ -613,13 +618,6 @@ button:focus {
     height: 360px;
     object-fit: contain;
     background-repeat: no-repeat
-  }
-  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
-    position: absolute;
-    margin: auto;
-    cursor: pointer;
-    left: 126px;
-    top: 106px
   }
 }
 @media (max-width:1024px) {
@@ -712,23 +710,20 @@ button:focus {
   .mid-section .video-reel-section {
     top: -200px
   }
-  .mid-section .video-reel-section .video-reel-section-wrap {
-    flex-direction: column;
-    gap: 35px
-  }
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section {
-    gap: 20px
+    gap: 20px;
+    width: 100%;
   }
+
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
-    width: 100%;
-    max-width: 500px;
-    height: 212px
+    width: 800px;
+    max-width: 100%;
+    height: 212px;
   }
-  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
-    position: absolute;
-    left: 176px;
-    top: 30px
+
+  .mid-section .video-reel-section .video-reel-section-wrap{
+    gap: 40px;
   }
 }
 @media (max-width:768px) {
@@ -767,26 +762,30 @@ button:focus {
   .top-section .features-section .features-section-wrap .main-features .accessibility {
     border-radius: 0px 0px 6px 6px
   }
-}
-@media (max-width:600px) {
+
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
-    max-width: 320px
+    width: 600px;
+    max-width: 100%;
+    height: 212px;
   }
-  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
-    position: absolute;
-    left: 86px;
-    top: 30px
+
+  .mid-section .video-reel-section .video-reel-section-wrap{
+    gap: 40px;
   }
 }
-@media (max-width:360px) {
+
+@media (max-width: 600px){
+  .mid-section .video-reel-section .video-reel-section-wrap {
+    flex-direction: column;
+    gap: 35px
+  }
+
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
-    max-width: 280px
-  }
-  .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
-    position: absolute;
-    left: 66px;
-    top: 30px
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
   }
 }
+

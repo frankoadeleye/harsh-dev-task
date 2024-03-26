@@ -172,7 +172,7 @@ button:focus {
   object-fit: contain;
   object-position: center
 }
-.top-section .horizontal-line {
+.top-section .horizontal-partition {
   height: 1px;
   width: 1200px;
   margin: auto;
@@ -518,7 +518,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  z-index: 1
 }
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element {
   width: 570px;
@@ -555,6 +555,7 @@ button:focus {
   justify-content: center;
   box-sizing: border-box
 }
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .sub-heading,
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-sub-heading {
   font-family: inherit;
   font-size: 16px;
@@ -565,7 +566,9 @@ button:focus {
   text-transform: uppercase;
   color: #ef6d58
 }
-.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading {
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .main-heading,
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading,
+.video-reel-sub-heading {
   font-family: inherit;
   font-size: 40px;
   font-weight: 800;
@@ -574,7 +577,9 @@ button:focus {
   color: #391400;
   max-width: 469px
 }
-.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-paragraph {
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph,
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-paragraph,
+.video-reel-sub-heading {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -583,24 +588,148 @@ button:focus {
   color: #391400A3;
   max-width: 470px
 }
-
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .play-button {
   position: relative;
   margin: auto;
   cursor: pointer;
-  z-index: 2;
+  z-index: 2
+}
+.mid-section .acheievement-section {
+  width: 100%;
+  position: relative;
+  top: 0
+}
+.mid-section .acheievement-section .acheievement-section-wrap {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 40px;
+  width: 391px;
+  flex: 1 1 100%;
+  height: 176px;
+  border-radius: 6px 0px 0px 6px;
+  border: 1px solid #f3d1bf;
+  box-sizing: border-box
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item .value {
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: left;
+  color: #391400
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item .text {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item:nth-child(1) {
+  border-right: none
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item:nth-child(2) {
+  border-radius: 0px
+}
+.mid-section .acheievement-section .acheievement-section-wrap .item:nth-child(3) {
+  border-radius: 0px 6px 6px 0px;
+  border-left: none
+}
+.mid-section .how-i-am-work-section {
+  width: 100%;
+  margin-top: 100px;
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 470px;
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .extra {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  box-sizing: border-box;
+  cursor: pointer
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top: 80px;
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item {
+  display: flex;
+  gap: 30px;
+  align-items: center
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item .number {
+  font-family: inherit;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: -2px;
+  text-align: left;
+  color: #391400
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item .text {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400
+}
+
+.mid-section .horizontal-partition{
+ position: relative;
+ top: 160px;
+  height: 1px;
+  width: 1200px;
+  margin: auto;
+  background: #F3D1BF;
+  box-sizing: border-box
 }
 @media (max-width:1300px) {
+  .mid-section .acheievement-section .acheievement-section-wrap,
+  .mid-section .acheivement-section .acheievement-section-wrap,
+  .mid-section .how-i-am-work-section .how-i-am-work-section-wrap,
   .mid-section .video-reel-section .video-reel-section-wrap,
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap,
   .top-section .banner .banner-content-wrap,
   .top-section .features-section .features-section-wrap,
   .top-section .navbar .nav-content-wrap,
   .top-section .service-section .service-section-wrap,
-  .top-section .webflow-section .webflow-section-wrap {
-    width: 950px
-  }
-  .top-section .horizontal-line {
+  .top-section .webflow-section .webflow-section-wrap,.top-section .horizontal-partition,.mid-section .horizontal-partition {
     width: 950px
   }
   .mid-section .video-reel-section .video-reel-section-wrap {
@@ -628,18 +757,25 @@ button:focus {
     padding-left: 20px;
     padding-right: 20px
   }
-  .top-section .horizontal-line {
+  .top-section .horizontal-partition {
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px
+  }
+
+  .mid-section .horizontal-partition{
+    top: 100px;
+    width: 100%;
   }
   .top-section .navbar .menu-icon {
     display: flex;
     cursor: pointer
   }
-  .top-section .navbar .link {
-    width: 100%
+  .top-section .navbar .link,.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
+    width: 100%;
+    max-width: 100%;
   }
+  
   .top-section .navbar .contact-us-btn,
   .top-section .navbar .links {
     display: none
@@ -712,21 +848,40 @@ button:focus {
   }
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section {
     gap: 20px;
-    width: 100%;
+    width: 100%
   }
-
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
     width: 800px;
     max-width: 100%;
-    height: 212px;
+    height: 212px
+  }
+  .mid-section .video-reel-section .video-reel-section-wrap {
+    gap: 40px
+  }
+  .mid-section .acheievement-section {
+    width: 100%;
+    position: relative;
+    top: -120px
+  }
+  .mid-section .how-i-am-work-section .how-i-am-work-section-wrap {
+    flex-direction: column
+  }
+  .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section,
+  .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
+    width: 100%
   }
 
-  .mid-section .video-reel-section .video-reel-section-wrap{
-    gap: 40px;
+  .mid-section .how-i-am-work-section {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    top: -120px;
   }
 }
 @media (max-width:768px) {
+  .mid-section .acheievement-section .acheievement-section-wrap,
+  .mid-section .acheivement-section .acheievement-section-wrap,
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap,
   .top-section .features-section .features-section-wrap .main-features {
     flex-direction: column
@@ -746,11 +901,17 @@ button:focus {
     padding: 50px 20px;
     width: 100%
   }
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
+    border-right: 1px;
+    border-bottom: none
+  }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(2) {
     border-radius: 0px
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3) {
-    border-radius: 0px 0px 6px 6px
+    border-radius: 0px 0px 6px 6px;
+    border-top: none;
+    border-left: 1px
   }
   .top-section .features-section .features-section-wrap .main-features .accessibility,
   .top-section .features-section .features-section-wrap .main-features .professional {
@@ -762,30 +923,43 @@ button:focus {
   .top-section .features-section .features-section-wrap .main-features .accessibility {
     border-radius: 0px 0px 6px 6px
   }
-
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
     width: 600px;
     max-width: 100%;
-    height: 212px;
+    height: 212px
   }
-
-  .mid-section .video-reel-section .video-reel-section-wrap{
-    gap: 40px;
+  .mid-section .acheievement-section .acheievement-section-wrap .item {
+    width: 100%;
+    height: 176px;
+    gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px
+  }
+  .mid-section .video-reel-section .video-reel-section-wrap {
+    gap: 40px
+  }
+  .mid-section .acheievement-section .acheievement-section-wrap .item:nth-child(1) {
+    border-radius: 6px 6px 0px 0px;
+    border-right: 1px solid #f3d1bf;
+    border-bottom: none
+  }
+  .mid-section .acheievement-section .acheievement-section-wrap .item:nth-child(3) {
+    border-radius: 0px 0px 6px 6px;
+    border-left: 1px solid #f3d1bf;
+    border-top: none
   }
 }
-
-@media (max-width: 600px){
+@media (max-width:600px) {
   .mid-section .video-reel-section .video-reel-section-wrap {
     flex-direction: column;
     gap: 35px
   }
-
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element,
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container {
     width: 100%;
     max-width: 100%;
-    height: 300px;
+    height: 300px
   }
 }
-

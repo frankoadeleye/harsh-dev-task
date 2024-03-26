@@ -650,7 +650,7 @@ button:focus {
 }
 .mid-section .how-i-am-work-section {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 100px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap {
   max-width: 100%;
@@ -667,7 +667,7 @@ button:focus {
   gap: 30px;
   justify-content: center;
   box-sizing: border-box;
-  max-width: 470px;
+  max-width: 470px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .extra {
   font-family: inherit;
@@ -685,7 +685,7 @@ button:focus {
   gap: 30px;
   box-sizing: border-box;
   position: relative;
-  top: 80px;
+  top: 80px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item {
   display: flex;
@@ -709,27 +709,99 @@ button:focus {
   text-align: left;
   color: #391400
 }
-
-.mid-section .horizontal-partition{
- position: relative;
- top: 160px;
+.mid-section .horizontal-partition {
+  position: relative;
+  top: 200px;
   height: 1px;
   width: 1200px;
   margin: auto;
-  background: #F3D1BF;
+  background: #f3d1bf;
   box-sizing: border-box
+}
+.mid-section .portfolio-section {
+  width: 100%;
+  position: relative;
+  top: 300px
+}
+.mid-section .portfolio-section .portfolio-section-wrap {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 30px
+}
+.mid-section .portfolio-section .portfolio-section-wrap,
+.mid-section .portfolio-section .portfolio-section-wrap .sub-heading {
+  text-align: center
+}
+.mid-section .portfolio-section .portfolio-section-wrap .sub-heading {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ef6d58
+}
+.mid-section .portfolio-section .portfolio-section-wrap .main-heading {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #391400
+}
+.mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  gap: 50px
+}
+.mid-section .portfolio-section .portfolio-section-wrap .tabs-heading .item {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3;
+  cursor: pointer
+}
+.mid-section .portfolio-section .portfolio-section-wrap .tabs-heading .item:first-child .text {
+  color: #391400
+}
+.mid-section .portfolio-section .portfolio-section-wrap .tabs-heading .item .count {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+  top: -12px
 }
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,
+  .mid-section .horizontal-partition,
   .mid-section .how-i-am-work-section .how-i-am-work-section-wrap,
   .mid-section .video-reel-section .video-reel-section-wrap,
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap,
   .top-section .banner .banner-content-wrap,
   .top-section .features-section .features-section-wrap,
+  .top-section .horizontal-partition,
   .top-section .navbar .nav-content-wrap,
   .top-section .service-section .service-section-wrap,
-  .top-section .webflow-section .webflow-section-wrap,.top-section .horizontal-partition,.mid-section .horizontal-partition {
+  .top-section .webflow-section .webflow-section-wrap {
     width: 950px
   }
   .mid-section .video-reel-section .video-reel-section-wrap {
@@ -762,20 +834,21 @@ button:focus {
     margin-bottom: 50px;
     margin-top: 50px
   }
-
-  .mid-section .horizontal-partition{
+  .mid-section .horizontal-partition {
     top: 100px;
     width: 100%;
+    margin-bottom: -100px;
+    margin-top: -40px
   }
   .top-section .navbar .menu-icon {
     display: flex;
     cursor: pointer
   }
-  .top-section .navbar .link,.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
+  .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section,
+  .top-section .navbar .link {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%
   }
-  
   .top-section .navbar .contact-us-btn,
   .top-section .navbar .links {
     display: none
@@ -871,12 +944,16 @@ button:focus {
   .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
     width: 100%
   }
-
   .mid-section .how-i-am-work-section {
     width: 100%;
     margin-top: 100px;
     position: relative;
-    top: -120px;
+    top: -120px
+  }
+  .mid-section .portfolio-section .portfolio-section-wrap .main-heading {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px
   }
 }
 @media (max-width:768px) {
@@ -949,6 +1026,9 @@ button:focus {
     border-radius: 0px 0px 6px 6px;
     border-left: 1px solid #f3d1bf;
     border-top: none
+  }
+  .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
+    display: none
   }
 }
 @media (max-width:600px) {

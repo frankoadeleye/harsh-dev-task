@@ -455,15 +455,14 @@ button:focus {
   flex: 1 1 0
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
-  border-right:none;
+  border-right: none
 }
-
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(2) {
   border-radius: 0px
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3) {
   border-radius: 0px 6px 6px 0px;
-  border-left:none;
+  border-left: none
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon {
   width: 80px;
@@ -739,6 +738,37 @@ button:focus {
   justify-content: center;
   gap: 30px
 }
+.mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown {
+  width: 100%
+}
+.mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown select {
+  width: 100%;
+  border: 1px solid #f3d1bf;
+  height: 48px;
+  background: #fff;
+  border-radius: 6px;
+  padding-left: 20px;
+  font-family: inherit;
+  font-size: 16px;
+  outline-style: none;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: capitalize;
+  text-align: left;
+  color: #391400A3;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("https://iili.io/Jj7LQtt.png");
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: 22px;
+  display: none;
+}
+
+.mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown select .option{
+
+}
 .mid-section .portfolio-section .portfolio-section-wrap,
 .mid-section .portfolio-section .portfolio-section-wrap .sub-heading {
   text-align: center
@@ -984,8 +1014,8 @@ button:focus {
     width: 100%
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
-    border-right: 1px solid #F3D1BF;
-    border-bottom: none;
+    border-right: 1px solid #f3d1bf;
+    border-bottom: none
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(2) {
     border-radius: 0px
@@ -993,7 +1023,7 @@ button:focus {
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3) {
     border-radius: 0px 0px 6px 6px;
     border-top: none;
-    border-left: 1px solid #F3D1BF;
+    border-left: 1px solid #f3d1bf
   }
   .top-section .features-section .features-section-wrap .main-features .accessibility,
   .top-section .features-section .features-section-wrap .main-features .professional {
@@ -1011,14 +1041,12 @@ button:focus {
     max-width: 100%;
     height: 212px
   }
-
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
-    border-right: 1px solid #F3D1BF;
+    border-right: 1px solid #f3d1bf
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(3) {
-    border-left: 1px solid #F3D1BF;
+    border-left: 1px solid #f3d1bf
   }
-
   .mid-section .acheievement-section .acheievement-section-wrap .item {
     width: 100%;
     height: 176px;
@@ -1042,6 +1070,10 @@ button:focus {
   }
   .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
     display: none
+  }
+
+  .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown select{
+    display: flex;
   }
 }
 @media (max-width:600px) {

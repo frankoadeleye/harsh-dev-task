@@ -101,7 +101,6 @@ button:focus {
 .top-section .banner .content {
   display: flex;
   flex-direction: column;
-  gap: 25px
 }
 .top-section .banner .content .sub-heading {
   font-family: inherit;
@@ -111,7 +110,8 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   color: #ef6d58;
-  text-transform: uppercase
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 .top-section .banner .content .main-heading {
   font-family: inherit;
@@ -120,7 +120,8 @@ button:focus {
   line-height: 80px;
   letter-spacing: -2px;
   text-align: left;
-  color: #fff
+  color: #fff;
+  margin-bottom: 24px;
 }
 .top-section .banner .content .small-text {
   font-family: inherit;
@@ -129,11 +130,12 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #ffffffa3;
-  max-width: 470px
+  max-width: 470px;
+  margin-bottom: 34px;
 }
 .top-section .banner .content .action-btns {
   display: flex;
-  gap: 30px;
+  gap: 46px;
   align-items: center
 }
 .top-section .banner .content .action-btns button:first-child {
@@ -195,7 +197,6 @@ button:focus {
 .top-section .features-section .features-section-wrap .main-text {
   display: flex;
   flex-direction: column;
-  gap: 30px
 }
 .top-section .features-section .features-section-wrap .main-text .sub-heading {
   font-family: inherit;
@@ -205,7 +206,8 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   color: #ef6d58;
-  text-transform: uppercase
+  text-transform: uppercase;
+  margin-bottom: 36px;
 }
 .top-section .features-section .features-section-wrap .main-text .main-heading {
   font-family: inherit;
@@ -214,7 +216,8 @@ button:focus {
   line-height: 64px;
   letter-spacing: -1px;
   text-align: left;
-  color: #fff
+  color: #fff;
+  margin-bottom: 28px;
 }
 .top-section .features-section .features-section-wrap .main-text .extra {
   font-family: inherit;
@@ -238,11 +241,10 @@ button:focus {
   background: #fff;
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
-  padding-right: 40px;
-  gap: 30px;
+  padding-left: 48px;
+  padding-right: 48px;
   justify-content: center;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-icon {
   width: 80px;
@@ -251,7 +253,8 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-bottom: 41px;
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text,
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-main-text {
@@ -260,10 +263,12 @@ button:focus {
   font-weight: 700;
   line-height: 32px;
   text-align: left;
-  color: #391400
+  color: #391400;
+  margin-bottom: 19px;
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text {
-  color: #fff
+  color: #fff;
+  margin-bottom: 19px;
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-sub-text,
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-sub-text {
@@ -287,11 +292,10 @@ button:focus {
   border: 1px solid #3a3c56;
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 48px;
+  padding-right: 48px;
   padding-top: 60px;
-  gap: 30px;
-  justify-content: center;
+  padding-top: 105px;
   box-sizing: border-box
 }
 .top-section .webflow-section {
@@ -318,7 +322,6 @@ button:focus {
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading {
@@ -329,7 +332,8 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   text-transform: uppercase;
-  color: #ef6d58
+  color: #ef6d58;
+  margin-bottom: 20px;
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
   font-family: inherit;
@@ -338,7 +342,8 @@ button:focus {
   line-height: 64px;
   letter-spacing: -1px;
   text-align: left;
-  color: #fff
+  color: #fff;
+  margin-bottom: 26px;
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading {
   font-family: inherit;
@@ -346,7 +351,8 @@ button:focus {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  color: #fff
+  color: #fff;
+  margin-bottom: 18px;
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph {
   font-family: inherit;
@@ -355,7 +361,8 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #fffFFFA3;
-  max-width: 470px
+  max-width: 470px;
+  margin-bottom: 34px;
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section button {
   font-family: inherit;
@@ -392,7 +399,6 @@ button:focus {
 .top-section .service-section .service-section-wrap .service-text-section {
   display: flex;
   flex-direction: column;
-  gap: 30px
 }
 .top-section .service-section .service-section-wrap .service-text-section .service-sub-heading {
   font-family: inherit;
@@ -402,7 +408,8 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   color: #ef6d58;
-  text-transform: uppercase
+  text-transform: uppercase;
+  margin-bottom: 17px;
 }
 .top-section .service-section .service-section-wrap .service-text-section .service-main-heading {
   font-family: inherit;
@@ -412,7 +419,7 @@ button:focus {
   text-align: left;
   color: #fff;
   text-transform: capitalize;
-  max-width: 333px
+  max-width: 333px;
 }
 .mid-section {
   background: #fdf0e9;
@@ -424,7 +431,7 @@ button:focus {
 }
 .mid-section .webflow-expert-stages {
   width: 100%;
-  position: relative
+  position: relative;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap {
   display: flex;
@@ -439,20 +446,18 @@ button:focus {
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item {
   width: 391px;
   height: 400px;
-  gap: 0px;
   border-radius: 6px 0px 0px 6px;
   border: 1px 0 0 0;
   opacity: 0px;
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
-  padding-right: 40px;
-  gap: 30px;
+  padding-left: 48px;
+  padding-right: 49px;
   justify-content: center;
   box-sizing: border-box;
   background: #fff;
   border: 1px solid #f3d1bf;
-  flex: 1 1 0
+  flex: 1 1 0;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
   border-right: none
@@ -471,7 +476,8 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-bottom: 41px;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .main-text {
   font-family: inherit;
@@ -479,7 +485,8 @@ button:focus {
   font-weight: 700;
   line-height: 32px;
   text-align: left;
-  color: #391400
+  color: #391400;
+  margin-bottom: 19px;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .sub-text {
   font-family: inherit;
@@ -487,7 +494,8 @@ button:focus {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  color: #391400a3
+  color: #391400a3;
+  margin-bottom: 26px;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .extra-text {
   font-family: inherit;
@@ -555,7 +563,6 @@ button:focus {
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
   box-sizing: border-box
 }
@@ -568,7 +575,10 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   text-transform: uppercase;
-  color: #ef6d58
+  color: #ef6d58;
+}
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-sub-heading{
+  margin-bottom: 17px;
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .main-heading,
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading,
@@ -580,6 +590,9 @@ button:focus {
   text-align: left;
   color: #391400;
   max-width: 469px
+}
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading{
+  margin-bottom: 28px;
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph,
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-paragraph,
@@ -617,14 +630,14 @@ button:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 13px;
   padding: 0 40px;
   width: 391px;
   flex: 1 1 100%;
   height: 176px;
   border-radius: 6px 0px 0px 6px;
   border: 1px solid #f3d1bf;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .mid-section .acheievement-section .acheievement-section-wrap .item .value {
   font-family: inherit;
@@ -668,10 +681,20 @@ button:focus {
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
   box-sizing: border-box;
-  max-width: 470px
+  max-width: 470px;
+}
+
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .sub-heading{
+  margin-bottom: 17px;
+}
+
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .main-heading{
+  margin-bottom: 31px;
+}
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph{
+  margin-bottom: 28px;
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .extra {
   font-family: inherit;
@@ -686,14 +709,14 @@ button:focus {
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 32px;
   box-sizing: border-box;
   position: relative;
   top: 80px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item {
   display: flex;
-  gap: 30px;
+  gap: 54px;
   align-items: center
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item .number {
@@ -736,7 +759,6 @@ button:focus {
   align-items: center;
   box-sizing: border-box;
   justify-content: center;
-  gap: 30px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown {
   width: 100%
@@ -777,7 +799,8 @@ button:focus {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
-  color: #ef6d58
+  color: #ef6d58;
+  margin-bottom: 20px;
 }
 .mid-section .portfolio-section .portfolio-section-wrap .main-heading {
   font-family: inherit;
@@ -786,7 +809,8 @@ button:focus {
   line-height: 64px;
   letter-spacing: -1px;
   text-align: center;
-  color: #391400
+  color: #391400;
+  margin-bottom: 36px;
 }
 .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
   display: flex;
@@ -794,7 +818,7 @@ button:focus {
   align-items: center;
   position: relative;
   box-sizing: border-box;
-  gap: 50px
+  gap: 46px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading .item {
   display: flex;
@@ -899,7 +923,7 @@ button:focus {
   border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 24px;
-  margin-left: 50px;
+  margin-left: 48px;
   position: absolute;
   bottom: 120px;
 }
@@ -912,7 +936,7 @@ button:focus {
   z-index: 3;
   box-sizing: border-box;
   color: #fff;
-  margin-left: 50px;
+  margin-left: 48px;
   margin-bottom: 50px;
   position: absolute;
   bottom: 0px;
@@ -1001,11 +1025,15 @@ button:focus {
   }
   .top-section .banner .banner-content-wrap {
     flex-direction: column;
-    flex-flow: column-reverse
+    flex-flow: column-reverse;
   }
   .top-section .banner .content,
   .top-section .banner .illustration {
     width: 100%
+  }
+
+  .top-section .banner .content{
+    margin-top: 30px;
   }
   .top-section .banner .illustration {
     width: 100%
@@ -1228,12 +1256,12 @@ button:focus {
   }
 
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
-    margin-left: 50px;
+    margin-left: 48px;
     position: absolute;
     bottom: 140px;
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
-    margin-left: 50px;
+    margin-left: 48px;
     margin-bottom: 50px;
   }
 }
@@ -1254,12 +1282,16 @@ button:focus {
   }
 
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
-    margin-left: 40px;
+    margin-left: 28px;
     position: absolute;
     bottom: 110px;
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
-    margin-left: 40px;
+    margin-left: 28px;
     margin-bottom: 40px;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p{
+    font-size: 32px;
   }
 }

@@ -478,6 +478,12 @@ button:focus {
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 41px;
+  box-sizing: border-box;
+}
+
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon img{
+  width: 32px;
+  height: 32px;
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .main-text {
   font-family: inherit;
@@ -1143,6 +1149,11 @@ button:focus {
     margin-left: 20px;
     margin-bottom: 30px;
   }
+
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item{
+    padding: 30px 20px;
+
+  }
 }
 @media (max-width:768px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
@@ -1154,17 +1165,13 @@ button:focus {
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item {
     width: 329px;
     height: 432px;
-    top: 3216px;
-    left: 23px;
     gap: 0px;
     border-radius: 6px 6px 0px 0px;
     border: 1px 0 0 0;
     opacity: 0px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 50px 20px;
-    width: 100%
+    width: 100%;
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
     border-right: 1px solid #f3d1bf;

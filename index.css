@@ -313,18 +313,18 @@ button:focus {
   min-height: 100px;
   gap: 150px
 }
-.top-section .webflow-section .webflow-section-wrap .illustration {
+.top-section .webflow-section .webflow-section-wrap .illustration,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration {
   max-width: 100%;
   object-fit: contain;
   max-height: 100%;
   object-position: center
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-sub-heading {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -335,7 +335,7 @@ button:focus {
   color: #ef6d58;
   margin-bottom: 20px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading {
   font-family: inherit;
   font-size: 56px;
   font-weight: 800;
@@ -345,7 +345,7 @@ button:focus {
   color: #fff;
   margin-bottom: 26px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-below-main-heading {
   font-family: inherit;
   font-size: 20px;
   font-weight: 400;
@@ -354,7 +354,7 @@ button:focus {
   color: #fff;
   margin-bottom: 18px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-paragraph {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -364,7 +364,7 @@ button:focus {
   max-width: 470px;
   margin-bottom: 34px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section button {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button{
   font-family: inherit;
   width: 170px;
   height: 48px;
@@ -384,7 +384,7 @@ button:focus {
   transition: .3s;
   border-radius: 6px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section button:hover {
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button:hover,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button:hover {
   background: 0 0
 }
 .top-section .service-section {
@@ -1053,6 +1053,20 @@ button:focus {
   object-position: center;
   box-sizing: border-box;
 }
+
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100px;
+  gap: 150px;
+}
+
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
+  margin-top: 308px;
+}
+
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,
@@ -1097,6 +1111,10 @@ button:focus {
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
     width: 100%
+  }
+
+  .top-section .webflow-section .webflow-section-wrap .illustration ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration{
+    max-width: 350px;
   }
 }
 @media (max-width:1024px) {
@@ -1181,16 +1199,16 @@ button:focus {
     text-align: left;
     color: #fff
   }
-  .top-section .webflow-section .webflow-section-wrap {
+  .top-section .webflow-section .webflow-section-wrap ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
     display: flex;
     flex-direction: column;
     gap: 30px
   }
   .top-section .webflow-section .webflow-section-wrap .illustration,
-  .top-section .webflow-section .webflow-section-wrap .webflow-text-section {
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration {
     width: 100%
   }
-  .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading {
     font-family: inherit;
     font-size: 40px;
     font-weight: 800;
@@ -1274,6 +1292,15 @@ button:focus {
 
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag{
     left: 40px;
+  }
+
+  .top-section .webflow-section .webflow-section-wrap .illustration ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration{
+    max-width: 100%;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
+    max-width: 100%;
+  width: 100%;
   }
 }
 @media (max-width:768px) {

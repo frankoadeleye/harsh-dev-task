@@ -100,7 +100,7 @@ button:focus {
 }
 .top-section .banner .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 .top-section .banner .content .sub-heading {
   font-family: inherit;
@@ -111,7 +111,7 @@ button:focus {
   text-align: left;
   color: #ef6d58;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 24px
 }
 .top-section .banner .content .main-heading {
   font-family: inherit;
@@ -121,7 +121,7 @@ button:focus {
   letter-spacing: -2px;
   text-align: left;
   color: #fff;
-  margin-bottom: 24px;
+  margin-bottom: 24px
 }
 .top-section .banner .content .small-text {
   font-family: inherit;
@@ -131,7 +131,7 @@ button:focus {
   text-align: left;
   color: #ffffffa3;
   max-width: 470px;
-  margin-bottom: 34px;
+  margin-bottom: 34px
 }
 .top-section .banner .content .action-btns {
   display: flex;
@@ -196,7 +196,7 @@ button:focus {
 }
 .top-section .features-section .features-section-wrap .main-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 .top-section .features-section .features-section-wrap .main-text .sub-heading {
   font-family: inherit;
@@ -207,7 +207,7 @@ button:focus {
   text-align: left;
   color: #ef6d58;
   text-transform: uppercase;
-  margin-bottom: 36px;
+  margin-bottom: 36px
 }
 .top-section .features-section .features-section-wrap .main-text .main-heading {
   font-family: inherit;
@@ -217,7 +217,7 @@ button:focus {
   letter-spacing: -1px;
   text-align: left;
   color: #fff;
-  margin-bottom: 28px;
+  margin-bottom: 28px
 }
 .top-section .features-section .features-section-wrap .main-text .extra {
   font-family: inherit;
@@ -244,7 +244,7 @@ button:focus {
   padding-left: 48px;
   padding-right: 48px;
   justify-content: center;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-icon {
   width: 80px;
@@ -254,7 +254,7 @@ button:focus {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin-bottom: 41px;
+  margin-bottom: 41px
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text,
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-main-text {
@@ -264,11 +264,11 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400;
-  margin-bottom: 19px;
+  margin-bottom: 19px
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-main-text {
   color: #fff;
-  margin-bottom: 19px;
+  margin-bottom: 19px
 }
 .top-section .features-section .features-section-wrap .main-features .accessibility .accessibility-feature-sub-text,
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-sub-text {
@@ -333,7 +333,7 @@ button:focus {
   text-align: left;
   text-transform: uppercase;
   color: #ef6d58;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
   font-family: inherit;
@@ -343,7 +343,7 @@ button:focus {
   letter-spacing: -1px;
   text-align: left;
   color: #fff;
-  margin-bottom: 26px;
+  margin-bottom: 26px
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading {
   font-family: inherit;
@@ -352,7 +352,7 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #fff;
-  margin-bottom: 18px;
+  margin-bottom: 18px
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph {
   font-family: inherit;
@@ -362,7 +362,7 @@ button:focus {
   text-align: left;
   color: #fffFFFA3;
   max-width: 470px;
-  margin-bottom: 34px;
+  margin-bottom: 34px
 }
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section button {
   font-family: inherit;
@@ -398,7 +398,7 @@ button:focus {
 }
 .top-section .service-section .service-section-wrap .service-text-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 .top-section .service-section .service-section-wrap .service-text-section .service-sub-heading {
   font-family: inherit;
@@ -409,7 +409,7 @@ button:focus {
   text-align: left;
   color: #ef6d58;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  margin-bottom: 17px
 }
 .top-section .service-section .service-section-wrap .service-text-section .service-main-heading {
   font-family: inherit;
@@ -419,7 +419,7 @@ button:focus {
   text-align: left;
   color: #fff;
   text-transform: capitalize;
-  max-width: 333px;
+  max-width: 333px
 }
 .mid-section {
   background: #fdf0e9;
@@ -431,7 +431,7 @@ button:focus {
 }
 .mid-section .webflow-expert-stages {
   width: 100%;
-  position: relative;
+  position: relative
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap {
   display: flex;
@@ -457,7 +457,7 @@ button:focus {
   box-sizing: border-box;
   background: #fff;
   border: 1px solid #f3d1bf;
-  flex: 1 1 0;
+  flex: 1 1 0
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
   border-right: none
@@ -478,12 +478,11 @@ button:focus {
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 41px;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
-
-.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon img{
+.mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon img {
   width: 32px;
-  height: 32px;
+  height: 32px
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .main-text {
   font-family: inherit;
@@ -492,7 +491,7 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400;
-  margin-bottom: 19px;
+  margin-bottom: 19px
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .sub-text {
   font-family: inherit;
@@ -501,7 +500,7 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400a3;
-  margin-bottom: 26px;
+  margin-bottom: 26px
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .extra-text {
   font-family: inherit;
@@ -581,10 +580,10 @@ button:focus {
   letter-spacing: 3px;
   text-align: left;
   text-transform: uppercase;
-  color: #ef6d58;
+  color: #ef6d58
 }
-.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-sub-heading{
-  margin-bottom: 17px;
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-sub-heading {
+  margin-bottom: 17px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .main-heading,
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading,
@@ -597,8 +596,8 @@ button:focus {
   color: #391400;
   max-width: 469px
 }
-.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading{
-  margin-bottom: 28px;
+.mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-main-heading {
+  margin-bottom: 28px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph,
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section .video-reel-paragraph,
@@ -643,7 +642,7 @@ button:focus {
   height: 176px;
   border-radius: 6px 0px 0px 6px;
   border: 1px solid #f3d1bf;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .mid-section .acheievement-section .acheievement-section-wrap .item .value {
   font-family: inherit;
@@ -689,18 +688,16 @@ button:focus {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
-  max-width: 470px;
+  max-width: 470px
 }
-
-.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .sub-heading{
-  margin-bottom: 17px;
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .sub-heading {
+  margin-bottom: 17px
 }
-
-.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .main-heading{
-  margin-bottom: 31px;
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .main-heading {
+  margin-bottom: 31px
 }
-.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph{
-  margin-bottom: 28px;
+.mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .paragraph {
+  margin-bottom: 28px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .extra {
   font-family: inherit;
@@ -764,7 +761,7 @@ button:focus {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  justify-content: center;
+  justify-content: center
 }
 .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown {
   width: 100%
@@ -806,7 +803,7 @@ button:focus {
   text-transform: uppercase;
   text-align: center;
   color: #ef6d58;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .main-heading {
   font-family: inherit;
@@ -816,7 +813,7 @@ button:focus {
   letter-spacing: -1px;
   text-align: center;
   color: #391400;
-  margin-bottom: 36px;
+  margin-bottom: 36px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
   display: flex;
@@ -860,7 +857,7 @@ button:focus {
 }
 .mid-section-extended .portfolio-works-sample-section {
   width: 100%;
-  position: relative;
+  position: relative
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap {
   max-width: 100%;
@@ -876,7 +873,7 @@ button:focus {
   box-sizing: border-box;
   padding: 0;
   position: relative;
-  top: -150px;
+  top: -150px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
   display: flex;
@@ -884,7 +881,7 @@ button:focus {
   gap: 36px;
   justify-content: space-between;
   box-sizing: border-box;
-  width: 100%;
+  width: 100%
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item {
   border: 1px 0 0 0;
@@ -897,7 +894,7 @@ button:focus {
   padding: 0;
   justify-content: flex-end;
   align-items: flex-start;
-  position: relative;
+  position: relative
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
   max-width: 100%;
@@ -907,8 +904,8 @@ button:focus {
   object-fit: fill;
   border-radius: 6px;
   position: relative;
-  top: 0px;
-  z-index: 1;
+  top: 0;
+  z-index: 1
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
   padding: 10px 15px;
@@ -931,7 +928,7 @@ button:focus {
   border-radius: 24px;
   margin-left: 48px;
   position: absolute;
-  bottom: 120px;
+  bottom: 120px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
   font-family: inherit;
@@ -945,7 +942,116 @@ button:focus {
   margin-left: 48px;
   margin-bottom: 50px;
   position: absolute;
-  bottom: 0px;
+  bottom: 0
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .button-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .button-container button {
+  width: 170px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  background: 0 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #fffFFF4B
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 47px 68px 47px 100px;
+  background: #fdf0e9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+  top: 193px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag{
+  position: absolute;
+  top: -75px;
+  left: 84px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text {
+  display: flex;
+  flex-direction: column;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text .sub-heading {
+  margin-bottom: 13px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #ef6d58
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text .main-heading {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  margin-bottom: 23px;
+  max-width: 217px
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button {
+  width: 154px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  opacity: 0px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ef6d58;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ef6d58;
+  transition: 0.3s;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button:hover{
+  background: transparent;
+  color: #ef6d58;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph {
+  width: 270px;
+  gap: 0px;
+  opacity: 0px;
+  color: #391400A3;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .illustration {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
 }
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
@@ -979,27 +1085,24 @@ button:focus {
     object-fit: contain;
     background-repeat: no-repeat
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p{
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
     font-size: 36px;
-    margin-left: 20px;
+    margin-left: 20px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button{
-    margin-left: 20px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
+    margin-left: 20px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item{
-    width: 100%;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item {
+    width: 100%
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img{
-    width: 100%;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
+    width: 100%
   }
 }
 @media (max-width:1024px) {
   .mid-section,
-  .top-section,.mid-section-extended {
+  .mid-section-extended,
+  .top-section {
     width: auto;
     gap: 10px;
     padding-left: 20px;
@@ -1031,15 +1134,14 @@ button:focus {
   }
   .top-section .banner .banner-content-wrap {
     flex-direction: column;
-    flex-flow: column-reverse;
+    flex-flow: column-reverse
   }
   .top-section .banner .content,
   .top-section .banner .illustration {
     width: 100%
   }
-
-  .top-section .banner .content{
-    margin-top: 30px;
+  .top-section .banner .content {
+    margin-top: 30px
   }
   .top-section .banner .illustration {
     width: 100%
@@ -1135,24 +1237,43 @@ button:focus {
     font-weight: 800;
     line-height: 48px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p{
-    font-size: 24px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
+    font-size: 24px
   }
-
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
     margin-left: 20px;
     position: absolute;
-    bottom: 90px;
+    bottom: 90px
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
+  }
+  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item {
+    padding: 30px 20px
   }
 
-  .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item{
-    padding: 30px 20px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started {
+    flex-direction: column;
+    padding: 0px;
+  }
 
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .illustration{
+    width: 100%;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph{
+    padding: 0px 32px;
+    box-sizing: border-box;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text{
+    margin-top: 92px;
+    margin-bottom: 23px;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag{
+    left: 40px;
   }
 }
 @media (max-width:768px) {
@@ -1171,7 +1292,7 @@ button:focus {
     opacity: 0px;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
     border-right: 1px solid #f3d1bf;
@@ -1234,42 +1355,35 @@ button:focus {
   .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown select {
     display: flex
   }
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row{
-    flex-direction: column;
-  }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item{
-    width: 100%;
-  }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img{
-    width: 100%;
-  }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row:nth-child(2){
-    display: none;
-  }
-
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
-    flex-direction: column;
+    flex-direction: column
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row:nth-child(2){
-    display: none;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item {
+    width: 100%
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p{
-    font-size: 40px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
+    width: 100%
   }
-
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row:nth-child(2) {
+    display: none
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
+    flex-direction: column
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row:nth-child(2) {
+    display: none
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
+    font-size: 40px
+  }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
     margin-left: 48px;
     position: absolute;
-    bottom: 140px;
+    bottom: 140px
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
     margin-left: 48px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
   }
 }
 @media (max-width:600px) {
@@ -1283,22 +1397,19 @@ button:focus {
     max-width: 100%;
     height: 300px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item{
-    height: 416px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item {
+    height: 416px
   }
-
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item button {
     margin-left: 28px;
     position: absolute;
-    bottom: 110px;
+    bottom: 110px
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
     margin-left: 28px;
-    margin-bottom: 40px;
+    margin-bottom: 40px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p{
-    font-size: 32px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
+    font-size: 32px
   }
 }

@@ -313,18 +313,21 @@ button:focus {
   min-height: 100px;
   gap: 150px
 }
-.top-section .webflow-section .webflow-section-wrap .illustration,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration,
+.top-section .webflow-section .webflow-section-wrap .illustration {
   max-width: 100%;
   object-fit: contain;
   max-height: 100%;
   object-position: center
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section {
   display: flex;
   flex-direction: column;
   justify-content: center
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-sub-heading {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-sub-heading,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-sub-heading {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -335,7 +338,8 @@ button:focus {
   color: #ef6d58;
   margin-bottom: 20px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
   font-family: inherit;
   font-size: 56px;
   font-weight: 800;
@@ -345,7 +349,8 @@ button:focus {
   color: #fff;
   margin-bottom: 26px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-below-main-heading {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-below-main-heading,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-below-main-heading {
   font-family: inherit;
   font-size: 20px;
   font-weight: 400;
@@ -354,7 +359,8 @@ button:focus {
   color: #fff;
   margin-bottom: 18px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-paragraph {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-paragraph,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-paragraph {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -364,7 +370,8 @@ button:focus {
   max-width: 470px;
   margin-bottom: 34px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section button,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button{
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button {
   font-family: inherit;
   width: 170px;
   height: 48px;
@@ -384,7 +391,8 @@ button:focus {
   transition: .3s;
   border-radius: 6px
 }
-.top-section .webflow-section .webflow-section-wrap .webflow-text-section button:hover,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button:hover {
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section button:hover,
+.top-section .webflow-section .webflow-section-wrap .webflow-text-section button:hover {
   background: 0 0
 }
 .top-section .service-section {
@@ -853,7 +861,7 @@ button:focus {
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
-  padding-bottom: 350px
+  padding-bottom: 0px;
 }
 .mid-section-extended .portfolio-works-sample-section {
   width: 100%;
@@ -979,16 +987,16 @@ button:focus {
   box-sizing: border-box;
   border-radius: 6px;
   position: relative;
-  top: 193px;
+  top: 193px
 }
-.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag{
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag {
   position: absolute;
   top: -75px;
-  left: 84px;
+  left: 84px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text .sub-heading {
   margin-bottom: 13px;
@@ -1029,11 +1037,11 @@ button:focus {
   border-radius: 6px;
   box-sizing: border-box;
   border: 1px solid #ef6d58;
-  transition: 0.3s;
+  transition: .3s
 }
-.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button:hover{
-  background: transparent;
-  color: #ef6d58;
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button:hover {
+  background: 0 0;
+  color: #ef6d58
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph {
   width: 270px;
@@ -1051,22 +1059,155 @@ button:focus {
   max-height: 100%;
   object-fit: contain;
   object-position: center;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
-
-.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   min-height: 100px;
-  gap: 150px;
+  gap: 150px
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section {
+  margin-top: 308px
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .sub-heading {
+  font-family: inherit;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ef6d58
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .main-heading {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  max-width: 394px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 64px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row {
+  display: inline-flex;
+  justify-content: center;
+  gap: 0px;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item {
+  display: inline-block;
+  min-width: 50%;
+  height: 400px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0 0 0;
+  opacity: 0px;
+  flex: 1 1 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px;
+  background: #fff;
+  gap: 36px;
+  position: relative;
+  border: 1px solid #F3D1BF;
 }
 
-.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
-  margin-top: 308px;
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:first-child,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(3){
+  border-right: none;
 }
 
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:not(:first-child){
+  height: 336px;
+}
+
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(2){
+  border-radius: 0px 6px 0px 0px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(3){
+  border-radius: 0px 0px 6px 6px;
+  border-top: none;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(4){
+  border-radius: 0px 0px 6px 0px;
+  top: -64px;
+  border-top: none;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap {
+  box-sizing: border-box
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .star {
+  box-sizing: border-box;
+  object-fit: contain;
+  object-position: center;
+  max-width: 152px;
+  height: 24px!important;
+  max-height: 24px;
+  margin-bottom: 36px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .paragraph {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3;
+  box-sizing: border-box;
+  margin-bottom: 36px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  box-sizing: border-box;
+  width: auto;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .avatar {
+  max-width: 80px;
+  max-height: 80px;
+  box-sizing: border-box
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .details {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  box-sizing: border-box
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .details .name {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .details .profession {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,
@@ -1112,9 +1253,16 @@ button:focus {
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
     width: 100%
   }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration,
+  .top-section .webflow-section .webflow-section-wrap .illustration {
+    max-width: 350px
+  }
 
-  .top-section .webflow-section .webflow-section-wrap .illustration ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration{
-    max-width: 350px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item{
+    height: auto;
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(4){
+    top: -130px;
   }
 }
 @media (max-width:1024px) {
@@ -1199,16 +1347,20 @@ button:focus {
     text-align: left;
     color: #fff
   }
-  .top-section .webflow-section .webflow-section-wrap ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section,
+  .top-section .webflow-section .webflow-section-wrap {
     display: flex;
     flex-direction: column;
     gap: 30px
   }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration,
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section,
   .top-section .webflow-section .webflow-section-wrap .illustration,
-  .top-section .webflow-section .webflow-section-wrap .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration {
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section {
     width: 100%
   }
-  .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading {
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-main-heading,
+  .top-section .webflow-section .webflow-section-wrap .webflow-text-section .webflow-main-heading {
     font-family: inherit;
     font-size: 40px;
     font-weight: 800;
@@ -1270,37 +1422,69 @@ button:focus {
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item {
     padding: 30px 20px
   }
-
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started {
     flex-direction: column;
-    padding: 0px;
+    padding: 0
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .illustration{
-    width: 100%;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .illustration,
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph {
+    width: 100%
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph{
-    padding: 0px 32px;
-    box-sizing: border-box;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph {
+    padding: 0 32px;
+    box-sizing: border-box
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text{
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text {
     margin-top: 92px;
-    margin-bottom: 23px;
+    margin-bottom: 23px
   }
-
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag{
-    left: 40px;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .tag {
+    left: 40px
   }
-
-  .top-section .webflow-section .webflow-section-wrap .illustration ,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration{
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration,
+  .top-section .webflow-section .webflow-section-wrap .illustration {
+    max-width: 100%
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section {
     max-width: 100%;
+    width: 100%
   }
 
-  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section{
-    max-width: 100%;
-  width: 100%;
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item{
+    width: 100%;
+    height: auto;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row{
+    flex-direction: column;
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(4){
+    top: 0px;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:not(:first-child){
+    height: auto;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(1){
+    border-radius: 6px 6px 0px 0px;
+  }
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(2),.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(3){
+    border-radius: 0px;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(4){
+    border-radius: 0px 0px 6px 6px;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:first-child,.mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(3){
+    border-right: 1px solid #F3D1BF;
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:first-child{
+    border-bottom:none;
   }
 }
 @media (max-width:768px) {
@@ -1438,5 +1622,9 @@ button:focus {
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item p {
     font-size: 32px
+  }
+
+  .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item{
+    padding: 49px 28px 36px 28px;
   }
 }

@@ -1208,6 +1208,41 @@ button:focus {
   margin: 0px;
   padding: 0px;
 }
+
+.mid-section-extended .portfolio-works-sample-section .testimonial-seemore-btn-wrapper{
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+}
+.mid-section-extended .portfolio-works-sample-section .testimonial-seemore-btn-wrapper button{
+  box-sizing: border-box;
+  width: 138px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0px;
+border: 1px solid #ffffff;
+opacity: 0px;
+box-shadow: 0px 3px 9px 0px #39140014;
+color: #391400;
+font-family: Epilogue;
+font-size: 14px;
+font-weight: 900;
+cursor: pointer;
+text-transform: uppercase;
+border-radius: 6px;
+text-align: center;
+transition: 0.3s;
+}
+
+.mid-section-extended .portfolio-works-sample-section .testimonial-seemore-btn-wrapper button:hover{
+  background: transparent;
+  color: #ffffff;
+}
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,

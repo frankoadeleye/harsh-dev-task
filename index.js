@@ -1,4 +1,3 @@
-// Accordion Style Element, use class="accordion"
 (() => {
   const acc = document.getElementsByClassName("accordion"), l = acc.length;
   for (let i = 0; i < l; i++) {

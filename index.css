@@ -1322,7 +1322,8 @@ button:focus {
   padding: 44px 48px 48px 48px;
   flex-direction: column;
   box-sizing: border-box;
-  cursor: pointer
+  position: relative;
+  z-index: 2;
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item:nth-child(1) {
   border-right: none

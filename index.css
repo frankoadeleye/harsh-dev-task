@@ -1249,13 +1249,14 @@ button:focus {
   position: relative;
   top: -350px;
   z-index: 1;
-  min-height: 1700px;
+  min-height: 3500px;
+  overflow: hidden;
 }
 .sub-footer-section .faq-section,
-.sub-footer-section .pricing-section {
+.sub-footer-section .pricing-section,.sub-footer-section .used-by-section {
   width: 100%;
   position: relative;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .sub-footer-section .faq-section .faq-section-wrap {
   display: flex;
@@ -1265,6 +1266,17 @@ button:focus {
   margin: auto;
   min-height: 400px;
   top: 550px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-footer-section .used-by-section .used-by-section-wrap{
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -1445,6 +1457,11 @@ button:focus {
   color: #ef6d58;
   margin-bottom: 17px
 }
+
+.sub-footer-section .faq-section{
+  position: relative;
+  z-index: 2;
+}
 .sub-footer-section .faq-section .faq-section-wrap .text-section .main-heading {
   font-family: inherit;
   font-family: inherit;
@@ -1565,6 +1582,31 @@ border-radius: 6px 6px 0px 0px;
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion .button.active ~ section{
   margin-bottom: 44px;
 }
+
+.sub-footer-section .used-by-section{
+  position: relative;
+  box-sizing: border-box;
+  top: 586px;
+  overflow: hidden;
+}
+.sub-footer-section .used-by-section .used-by-section-wrap .item{
+object-fit: contain;
+object-position: center;
+}
+
+.sub-footer-section .used-by-section .used-by-section-wrap{
+  box-sizing: border-box;
+}
+
+.horizontal-partition.sub-footer{
+  position: relative;
+  top: -320px;
+  height: 1px;
+  width: 1200px;
+  margin: auto;
+  background: #F3D1BF;
+  box-sizing: border-box;
+}
 @media (max-width:1300px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,
@@ -1578,9 +1620,10 @@ border-radius: 6px 6px 0px 0px;
   .top-section .banner .banner-content-wrap,
   .top-section .features-section .features-section-wrap,
   .top-section .horizontal-partition,
+  .horizontal-partition.sub-footer,
   .top-section .navbar .nav-content-wrap,
   .top-section .service-section .service-section-wrap,
-  .top-section .webflow-section .webflow-section-wrap,.sub-footer-section .faq-section .faq-section-wrap {
+  .top-section .webflow-section .webflow-section-wrap,.sub-footer-section .faq-section .faq-section-wrap,.sub-footer-section .used-by-section .used-by-section-wrap {
     width: 950px
   }
   .mid-section .video-reel-section .video-reel-section-wrap {
@@ -1650,6 +1693,10 @@ border-radius: 6px 6px 0px 0px;
     width: 100%;
     margin-bottom: -100px;
     margin-top: -40px
+  }
+
+  .sub-footer-section .horizontal-partition.sub-footer{
+    width: 100%;
   }
   .top-section .navbar .menu-icon {
     display: flex;
@@ -1896,6 +1943,17 @@ border-radius: 6px 6px 0px 0px;
     height: 32px;
     object-position: center;
   }
+
+  .sub-footer-section .used-by-section{
+    position: relative;
+    box-sizing: border-box;
+    top: 526px;
+    overflow: hidden;
+  }
+
+  .horizontal-partition.sub-footer{
+    top: 280px;
+  }
   
 }
 @media (max-width:768px) {
@@ -2007,6 +2065,20 @@ border-radius: 6px 6px 0px 0px;
     margin-left: 48px;
     margin-bottom: 50px
   }
+
+  .sub-footer-section .used-by-section .used-by-section-wrap .item{
+    display: flex;
+  }
+
+  .sub-footer-section .used-by-section .used-by-section-wrap{
+    justify-content: flex-start;
+  flex-flow: row wrap;
+  gap: 30px;
+  }
+
+  .sub-footer-section .used-by-section{
+    margin-bottom: 100px;
+  }
 }
 @media (max-width:600px) {
   .mid-section .video-reel-section .video-reel-section-wrap {
@@ -2046,5 +2118,25 @@ border-radius: 6px 6px 0px 0px;
     font-size: 40px;
     max-width: 100%;
     width: 100%
+  }
+
+  .horizontal-partition.sub-footer{
+    top: 200px;
+  }
+
+  .sub-footer-section .used-by-section{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px){
+  .sub-footer-section .used-by-section{
+    margin-bottom: 300px;
+  }
+}
+
+@media (max-width: 365px){
+  .sub-footer-section .used-by-section{
+    margin-bottom: 400px;
   }
 }

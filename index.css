@@ -1554,7 +1554,7 @@ button:focus {
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point .icon {
   width: 16px;
   height: 16px;
-  background-image: url(https://iili.io/JwjLmSS.png)
+  background-image: url(https://iili.io/JwjLmSS.png);
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point.active .icon {
   background-image: url(https://iili.io/JwwOY74.png)
@@ -1565,7 +1565,10 @@ button:focus {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
-  text-align: left
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point.active .text {
   color: #391400;

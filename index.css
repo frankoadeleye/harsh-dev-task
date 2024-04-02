@@ -1249,8 +1249,8 @@ button:focus {
   position: relative;
   top: -350px;
   z-index: 1;
-  min-height: 2700px;
-  overflow: hidden
+  overflow: hidden;
+  padding-bottom: 600px
 }
 .footer-section {
   background: #fdf0e9;
@@ -1294,7 +1294,7 @@ button:focus {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  margin-top: -300px;
+  margin-top: -320px;
   z-index: 3
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap {
@@ -1415,7 +1415,8 @@ button:focus {
   line-height: 32px;
   text-align: right;
   color: #391400A3;
-  margin-top: 50px
+  margin-top: 50px;
+  padding-bottom: 450px
 }
 .sub-footer-section .used-by-section .want-more-extra-button button {
   background: 0 0;
@@ -1931,7 +1932,7 @@ button:focus {
   border-radius: 6px;
   background: #fff;
   padding: 57px 48px 48px 48px;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section {
   display: flex;
@@ -1968,7 +1969,7 @@ button:focus {
   line-height: 32px;
   margin-bottom: 33px;
   text-align: left;
-  max-width: 470px;
+  max-width: 470px
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row {
   display: flex;
@@ -2534,9 +2535,6 @@ button:focus {
     font-size: 40px;
     line-height: 48px
   }
-  .sub-footer-section .used-by-section {
-    margin-bottom: 500px
-  }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section {
     flex-direction: column
   }
@@ -2743,9 +2741,8 @@ button:focus {
   .sub-footer-section .used-by-section {
     margin-top: 20px
   }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form{
-    padding: 57px 28px 48px 28px;
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form {
+    padding: 57px 28px 48px 28px
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field,
@@ -2754,11 +2751,9 @@ button:focus {
   }
   .footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section .main-heading {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 48px
   }
-
-  .footer-section .help-to-build .help-to-build-wrap{
+  .footer-section .help-to-build .help-to-build-wrap {
     margin-top: -480px
   }
-  
 }

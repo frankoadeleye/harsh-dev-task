@@ -1554,7 +1554,7 @@ button:focus {
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point .icon {
   width: 16px;
   height: 16px;
-  background-image: url(https://iili.io/JwjLmSS.png);
+  background-image: url(https://iili.io/JwjLmSS.png)
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point.active .icon {
   background-image: url(https://iili.io/JwwOY74.png)
@@ -1568,7 +1568,7 @@ button:focus {
   text-align: left;
   display: flex;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 5px
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point.active .text {
   color: #391400;
@@ -2433,6 +2433,7 @@ button:focus {
   .sub-footer-section .used-by-section {
     margin-top: 20px
   }
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form button {
     width: 100%

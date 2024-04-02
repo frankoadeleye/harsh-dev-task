@@ -1252,6 +1252,32 @@ button:focus {
   min-height: 2700px;
   overflow: hidden
 }
+.footer-section {
+  background: #fdf0e9;
+  display: flex;
+  flex-direction: column;
+  font-family: Epilogue,sans-serif;
+  font-optical-sizing: auto;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: -350px;
+  position: relative
+}
+.footer-section .help-to-build {
+  width: 100%
+}
+.footer-section .help-to-build .help-to-build-wrap {
+  display: flex;
+  background: inherit;
+  align-items: center;
+  max-width: 100%;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: -410px
+}
 .blog-and-newsletter-section {
   background: #28293e;
   display: flex;
@@ -1262,6 +1288,7 @@ button:focus {
   box-sizing: border-box;
   top: -350px;
   padding-bottom: 576px;
+  margin-bottom: 0
 }
 .blog-and-newsletter-section .blog-section {
   width: 100%;
@@ -1297,14 +1324,13 @@ button:focus {
   flex-flow: row wrap;
   gap: 30px
 }
-
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section {
   display: flex;
   justify-content: space-between;
   width: 100%;
   gap: 50px;
   align-items: center;
-  overflow: hidden;
+  overflow: hidden
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .text-section {
   font-family: inherit;
@@ -1896,91 +1922,81 @@ button:focus {
   text-align: left;
   color: #fffFFFA3
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form {
   min-width: 570px;
   gap: 0px;
   opacity: 0px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
-  /* flex: 1 1 0; */
-  background: #ffffff;
+  background: #fff;
   padding: 57px 48px 48px 48px;
   box-sizing: border-box;
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .sub-heading{
-font-family: inherit;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 3px;
-margin-bottom: 20px;
-text-align: left;
-text-transform: uppercase;
-color: #EF6D58;
-box-sizing: border-box;
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .sub-heading {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ef6d58;
+  box-sizing: border-box
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading{
-font-family: inherit;
-font-size: 56px;
-font-weight: 800;
-line-height: 64px;
-letter-spacing: -1px;
-text-align: left;
-color: #FFFFFF;
-margin-bottom: 28px;
-  }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .paragraph{
-    color: #FFFFFFA3;
-font-family: inherit;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-margin-bottom: 33px;
-text-align: left;
-  }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row{
-   display: flex;
-   align-items: center;
-   gap: 16px;
-   margin-bottom: 16px;
-  }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row .text{
-font-family: inherit;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-text-align: left;
-color: #ffffff;
-   }
- 
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .heading{
-font-family: inherit;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-text-align: left;
-color: #391400;
-margin-bottom: 23px;
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 28px
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .paragraph {
+  color: #fffFFFA3;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 33px;
+  text-align: left;
+  max-width: 470px;
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row .text {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #fff
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .heading {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  margin-bottom: 23px
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field {
   height: 48px;
   border-radius: 6px;
-  border: 1px solid #F3D1BF;
+  border: 1px solid #f3d1bf;
   box-sizing: border-box;
   color: #391400;
   font-size: 16px;
@@ -1988,74 +2004,67 @@ margin-bottom: 23px;
   font-family: inherit;
   margin-bottom: 16px;
   padding-left: 16px;
-  outline-style: none;
+  outline-style: none
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .get-in-touch-select-dropdown{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .get-in-touch-select-dropdown {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 16px
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea {
   width: 100%;
-  border: 1px solid #F3D1BF;
+  border: 1px solid #f3d1bf;
   outline-style: none;
   border-radius: 6px;
   box-sizing: border-box;
   padding: 8px 16px;
   color: #391400;
-font-family: Epilogue;
-font-size: 16px;
-line-height: 32px;
-font-weight: 400;
-text-align: left;
-margin-bottom: 32px;
+  font-family: Epilogue;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 32px
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button {
   width: 154px;
   height: 48px;
   gap: 0px;
   opacity: 0px;
-  background: #EF6D58;
+  background: #ef6d58;
   font-family: Epilogue;
-font-size: 14px;
-font-weight: 900;
-line-height: 14.35px;
-text-align: center;
-color: #ffffff;
-text-transform: uppercase;
-cursor: pointer;
-box-sizing: border-box;
-border: 1px solid #EF6D58;
-border-radius: 6px;
-transition: 0.3s;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14.35px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #ef6d58;
+  border-radius: 6px;
+  transition: .3s
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button:hover{
-  color: #EF6D58;
-  background: transparent;
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button:hover {
+  color: #ef6d58;
+  background: 0 0
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::placeholder{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-color: #391400A3;
-font-family: Epilogue;
-font-size: 16px;
-font-weight: 400;
-line-height: 32px;
-text-align: left;
+  color: #391400A3;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .get-in-touch-select-dropdown select{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .get-in-touch-select-dropdown select {
   width: 100%;
   border: 1px solid #f3d1bf;
   height: 48px;
@@ -2076,19 +2085,81 @@ text-align: left;
   background-image: url("https://iili.io/Jj7LQtt.png");
   background-repeat: no-repeat;
   background-position-x: 96%;
-  background-position-y: 22px;
+  background-position-y: 22px
 }
-
-.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::placeholder{
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::placeholder {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-color: #391400A3;
+  color: #391400A3
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box {
+  width: 100%;
+  padding: 41px 100px 71px 100px;
+  background: #ef6d58;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 6px
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section {
+  display: flex;
+  flex-direction: column
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section .main-heading {
+  max-width: 368px;
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 28px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fff
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section .paragraph {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 470px;
+  text-align: left;
+  margin-bottom: 34px;
+  color: #fffFFFA3
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section button {
+  font-family: inherit;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 14.35px;
+  text-align: center;
+  color: #391400;
+  background: #fff;
+  width: 154px;
+  height: 48px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 6px
+}
+.footer-section .help-to-build .help-to-build-wrap .help-build-box .illustration {
+  box-sizing: border-box;
+  object-fit: contain;
+  object-position: center;
+  max-width: 443.75px;
+  height: auto
 }
 @media (max-width:1300px) {
   .blog-and-newsletter-section .blog-section .blog-section-wrap,
+  .footer-section .help-to-build .help-to-build-wrap,
   .mid-section .acheievement-section .acheievement-section-wrap,
   .mid-section .acheivement-section .acheievement-section-wrap,
   .mid-section .horizontal-partition,
@@ -2152,9 +2223,11 @@ color: #391400A3;
     display: flex;
     width: 100px
   }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form{
-    min-width: 370px;
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form {
+    min-width: 370px
+  }
+  .footer-section .help-to-build .help-to-build-wrap .help-build-box {
+    padding: 21px 50px 41px 50px
   }
 }
 @media (max-width:1024px) {
@@ -2167,6 +2240,7 @@ color: #391400A3;
     padding-right: 20px
   }
   .blog-and-newsletter-section,
+  .footer-section,
   .sub-footer-section {
     padding-left: 20px;
     padding-right: 20px
@@ -2463,25 +2537,37 @@ color: #391400A3;
   .sub-footer-section .used-by-section {
     margin-bottom: 500px
   }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section{
-    flex-direction: column;
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section {
+    flex-direction: column
   }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form,.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section{
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form,
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section {
     width: 100%;
-    box-sizing: border-box;
+    min-width: 100%;
+    box-sizing: border-box
   }
-
-  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading{
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading {
     font-family: inherit;
-font-family: inherit;
-font-size: 40px;
-font-weight: 800;
-line-height: 48px;
-text-align: left;
-    color: #FFFFFF;
-      }
+    font-family: inherit;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+    color: #fff
+  }
+  .footer-section .help-to-build .help-to-build-wrap .help-build-box {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    padding: 32px 28px
+  }
+  .footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section {
+    width: 100%
+  }
+  .footer-section .help-to-build .help-to-build-wrap .help-build-box .illustration {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%
+  }
 }
 @media (max-width:768px) {
   .mid-section .acheievement-section .acheievement-section-wrap,
@@ -2657,9 +2743,22 @@ text-align: left;
   .sub-footer-section .used-by-section {
     margin-top: 20px
   }
+
+  .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form{
+    padding: 57px 28px 48px 28px;
+  }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form button {
     width: 100%
   }
+  .footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section .main-heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .footer-section .help-to-build .help-to-build-wrap{
+    margin-top: -480px
+  }
+  
 }

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%
 }
@@ -11,13 +12,29 @@ p {
 button,
 button:focus {
   outline-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none
 }
 .top-section {
   background: #28293e;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 100px;
   font-family: Epilogue,sans-serif;
@@ -28,10 +45,16 @@ button:focus {
   width: 100%
 }
 .top-section .navbar .nav-content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background: inherit;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1200px;
   margin: auto;
@@ -41,12 +64,18 @@ button:focus {
 .top-section .navbar .logo {
   max-width: 100%;
   max-height: 100%;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
   cursor: pointer
 }
 .top-section .navbar .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   list-style-type: none;
   gap: 100px;
@@ -76,6 +105,8 @@ button:focus {
   background: 0 0;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s
 }
 .top-section .navbar .menu-icon {
@@ -92,14 +123,26 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100px
 }
 .top-section .banner .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .top-section .banner .content .sub-heading {
@@ -134,8 +177,12 @@ button:focus {
   margin-bottom: 34px
 }
 .top-section .banner .content .action-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 46px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center
 }
 .top-section .banner .content .action-btns button:first-child {
@@ -152,8 +199,11 @@ button:focus {
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
   border: 1px solid #ef6d58;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .top-section .banner .content .action-btns button:first-child:hover {
@@ -171,7 +221,9 @@ button:focus {
   border: none
 }
 .top-section .banner .illustration {
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center
 }
 .top-section .horizontal-partition {
@@ -179,6 +231,7 @@ button:focus {
   width: 1200px;
   margin: auto;
   background: #3a3c56;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .top-section .features-section {
@@ -188,14 +241,26 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100px
 }
 .top-section .features-section .features-section-wrap .main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .top-section .features-section .features-section-wrap .main-text .sub-heading {
@@ -229,8 +294,14 @@ button:focus {
   cursor: pointer
 }
 .top-section .features-section .features-section-wrap .main-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start
 }
 .top-section .features-section .features-section-wrap .main-features .professional {
@@ -239,19 +310,33 @@ button:focus {
   border-radius: 6px 6px 0px 6px;
   opacity: 0px;
   background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 48px;
   padding-right: 48px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .top-section .features-section .features-section-wrap .main-features .professional .professional-feature-icon {
   width: 80px;
   height: 80px;
   background: #ef6c57;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 41px
@@ -290,12 +375,18 @@ button:focus {
   opacity: 0px;
   background: 0 0;
   border: 1px solid #3a3c56;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 48px;
   padding-right: 48px;
   padding-top: 60px;
   padding-top: 105px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .top-section .webflow-section {
@@ -306,9 +397,16 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100px;
   gap: 150px
@@ -316,14 +414,23 @@ button:focus {
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .illustration,
 .top-section .webflow-section .webflow-section-wrap .illustration {
   max-width: 100%;
+  -o-object-fit: contain;
   object-fit: contain;
   max-height: 100%;
+  -o-object-position: center;
   object-position: center
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section,
 .top-section .webflow-section .webflow-section-wrap .webflow-text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section .webflow-text-section .webflow-sub-heading,
@@ -384,10 +491,13 @@ button:focus {
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #b550f8;
   background: #b550f8;
   color: #fff;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
   border-radius: 6px
 }
@@ -402,10 +512,17 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex
 }
 .top-section .service-section .service-section-wrap .service-text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .top-section .service-section .service-section-wrap .service-text-section .service-sub-heading {
@@ -431,7 +548,12 @@ button:focus {
 }
 .mid-section {
   background: #fdf0e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
@@ -442,8 +564,14 @@ button:focus {
   position: relative
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
   top: -300px;
@@ -457,14 +585,24 @@ button:focus {
   border-radius: 6px 0px 0px 6px;
   border: 1px 0 0 0;
   opacity: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 48px;
   padding-right: 49px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
   border: 1px solid #f3d1bf;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item:nth-child(1) {
@@ -481,11 +619,18 @@ button:focus {
   width: 80px;
   height: 80px;
   background: #ef6c57;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 50%;
   margin-bottom: 41px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item .icon img {
@@ -521,6 +666,7 @@ button:focus {
 }
 .mid-section .video-reel-section {
   width: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   top: -150px
@@ -529,10 +675,17 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   gap: 150px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   position: relative
 }
@@ -540,8 +693,14 @@ button:focus {
   width: 570px;
   height: 368px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   z-index: 1
 }
@@ -550,6 +709,7 @@ button:focus {
   height: 368px;
   opacity: 0px;
   position: absolute;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 6px;
   background: url('https://iili.io/JhDxeig.png')
@@ -557,8 +717,14 @@ button:focus {
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element-container .video-timestamp {
   width: 47px;
   height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 0px;
   background: rgba(87,11,0,.24);
@@ -574,9 +740,17 @@ button:focus {
   border-radius: 6px
 }
 .mid-section .video-reel-section .video-reel-section-wrap .video-reel-text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section .sub-heading,
@@ -633,23 +807,40 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative
 }
 .mid-section .acheievement-section .acheievement-section-wrap .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 13px;
   padding: 0 40px;
   width: 391px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
   flex: 1 1 100%;
   height: 176px;
   border-radius: 6px 0px 0px 6px;
   border: 1px solid #f3d1bf;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section .acheievement-section .acheievement-section-wrap .item .value {
@@ -686,15 +877,30 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 470px
 }
@@ -714,20 +920,31 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   cursor: pointer
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 32px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   top: 80px
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 54px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center
 }
 .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section .item .number {
@@ -754,6 +971,7 @@ button:focus {
   width: 1200px;
   margin: auto;
   background: #f3d1bf;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section .portfolio-section {
@@ -765,10 +983,20 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center
 }
 .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown {
@@ -824,15 +1052,26 @@ button:focus {
   margin-bottom: 36px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   gap: 46px
 }
 .mid-section .portfolio-section .portfolio-section-wrap .tabs-heading .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 0px;
   font-family: inherit;
@@ -857,7 +1096,12 @@ button:focus {
 }
 .mid-section-extended {
   background: #28293e;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
@@ -871,11 +1115,21 @@ button:focus {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   gap: 36px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100px;
   box-sizing: border-box;
@@ -884,10 +1138,17 @@ button:focus {
   top: -150px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 36px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%
 }
@@ -895,20 +1156,37 @@ button:focus {
   border: 1px 0 0 0;
   opacity: 0px;
   border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0;
   padding: 0;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   position: relative
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item img {
   max-width: 100%;
   max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0;
+  -o-object-fit: fill;
   object-fit: fill;
   border-radius: 6px;
   position: relative;
@@ -922,8 +1200,14 @@ button:focus {
   opacity: 0px;
   color: #391400;
   background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   font-family: inherit;
   font-size: 16px;
@@ -932,6 +1216,7 @@ button:focus {
   cursor: pointer;
   z-index: 3;
   border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 24px;
   margin-left: 48px;
@@ -945,6 +1230,7 @@ button:focus {
   line-height: 48px;
   text-align: left;
   z-index: 3;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #fff;
   margin-left: 48px;
@@ -954,8 +1240,14 @@ button:focus {
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .button-container {
   width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .button-container button {
@@ -964,8 +1256,14 @@ button:focus {
   gap: 0px;
   opacity: 0px;
   background: 0 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   font-family: Epilogue;
   font-size: 14px;
@@ -979,11 +1277,18 @@ button:focus {
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 47px 68px 47px 100px;
   background: #fdf0e9;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 6px;
   position: relative;
@@ -995,7 +1300,12 @@ button:focus {
   left: 84px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text .sub-heading {
@@ -1021,8 +1331,14 @@ button:focus {
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button {
   width: 154px;
   height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 0px;
   opacity: 0px;
@@ -1035,8 +1351,11 @@ button:focus {
   cursor: pointer;
   text-align: center;
   border-radius: 6px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #ef6d58;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text button:hover {
@@ -1057,14 +1376,24 @@ button:focus {
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .illustration {
   max-width: 100%;
   max-height: 100%;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   min-height: 100px;
   gap: 150px
@@ -1074,9 +1403,17 @@ button:focus {
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section {
   width: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .sub-heading {
@@ -1102,10 +1439,19 @@ button:focus {
   margin-bottom: 64px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 0px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   position: relative;
   z-index: 2
@@ -1117,9 +1463,17 @@ button:focus {
   border-radius: 6px 0px 0px 0px;
   border: 1px 0 0 0;
   opacity: 0px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 48px;
   background: #fff;
@@ -1147,11 +1501,15 @@ button:focus {
   border-top: none
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .star {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
   max-width: 152px;
   height: 24px!important;
@@ -1165,25 +1523,38 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400A3;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 36px
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 24px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: auto
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .avatar {
   max-width: 80px;
   max-height: 80px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 3px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item .user .details .name {
@@ -1193,6 +1564,7 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0
@@ -1204,29 +1576,44 @@ button:focus {
   line-height: 32px;
   text-align: left;
   color: #391400;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0
 }
 .mid-section-extended .portfolio-works-sample-section .testimonial-seemore-btn-wrapper {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative;
   top: 20px;
   z-index: 2
 }
 .mid-section-extended .portfolio-works-sample-section .testimonial-seemore-btn-wrapper button {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 138px;
   height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 0px;
   border: 1px solid #fff;
   opacity: 0px;
+  -webkit-box-shadow: 0 3px 9px 0 #39140014;
   box-shadow: 0 3px 9px 0 #39140014;
   color: #391400;
   font-family: Epilogue;
@@ -1236,12 +1623,19 @@ button:focus {
   text-transform: uppercase;
   border-radius: 6px;
   text-align: center;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
   background: #fff
 }
 .sub-footer-section {
   background: #fdf0e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
@@ -1254,11 +1648,17 @@ button:focus {
 }
 .footer-section {
   background: #fdf0e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: -350px;
   position: relative
@@ -1267,24 +1667,40 @@ button:focus {
   width: 100%
 }
 .footer-section .help-to-build .help-to-build-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background: inherit;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1200px;
   margin: auto;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-top: -410px
 }
 .blog-and-newsletter-section {
   background: #28293e;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-family: Epilogue,sans-serif;
   font-optical-sizing: auto;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   top: -350px;
   padding-bottom: 576px;
@@ -1292,20 +1708,31 @@ button:focus {
 }
 .blog-and-newsletter-section .blog-section {
   width: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   margin-top: -320px;
   z-index: 3
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background: inherit;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 1200px;
   margin: auto;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .horizontal-partition {
@@ -1318,17 +1745,30 @@ button:focus {
   position: relative
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   gap: 30px
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 100%;
   gap: 50px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden
 }
@@ -1341,8 +1781,13 @@ button:focus {
   color: #fff
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field {
@@ -1358,9 +1803,42 @@ button:focus {
   font-weight: 400;
   line-height: 32px;
   border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline-style: none;
   border-radius: 6px
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field::-moz-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field:-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field::-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form .input-field::placeholder {
   font-family: inherit;
@@ -1385,8 +1863,11 @@ button:focus {
   cursor: pointer;
   opacity: 0px;
   border-radius: 6px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s;
   border: 1px solid #fffFFF4B;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .newsletter .form button:hover {
@@ -1398,15 +1879,25 @@ button:focus {
 .sub-footer-section .used-by-section {
   width: 100%;
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .used-by-section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .sub-footer-section .used-by-section .want-more-extra-button {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   font-family: inherit;
@@ -1427,6 +1918,7 @@ button:focus {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .used-by-section .horizontal-partition {
@@ -1436,9 +1928,12 @@ button:focus {
   margin-top: 104px;
   height: 1px;
   background: #f3d1bf;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .faq-section .faq-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   max-width: 100%;
@@ -1446,26 +1941,40 @@ button:focus {
   margin: auto;
   min-height: 400px;
   top: 550px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between
 }
 .sub-footer-section .used-by-section .used-by-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between
 }
 .sub-footer-section .used-by-section .awards-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin-top: 108px
 }
@@ -1481,7 +1990,12 @@ button:focus {
   margin-bottom: 67px
 }
 .sub-footer-section .pricing-section .pricing-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
   max-width: 100%;
@@ -1489,6 +2003,7 @@ button:focus {
   margin: auto;
   min-height: 400px;
   top: 350px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .sub-heading {
@@ -1501,6 +2016,7 @@ button:focus {
   color: #ef6d58;
   text-transform: uppercase;
   margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .main-heading {
@@ -1513,15 +2029,25 @@ button:focus {
   text-align: left;
   color: #391400;
   margin-bottom: 64px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 391px;
   min-height: 512px;
@@ -1529,9 +2055,15 @@ button:focus {
   border: 1px 0 0 0;
   opacity: 0px;
   border: 1px solid #f3d1bf;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0;
   padding: 44px 48px 48px 48px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   z-index: 3;
@@ -1583,8 +2115,12 @@ button:focus {
   margin-bottom: 27px
 }
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item .point {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 16px
 }
@@ -1603,7 +2139,11 @@ button:focus {
   font-weight: 400;
   line-height: 32px;
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding-top: 5px
 }
@@ -1618,8 +2158,14 @@ button:focus {
 .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item button {
   width: 154px;
   height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 0px;
   opacity: 0px;
@@ -1628,8 +2174,10 @@ button:focus {
   color: #391400;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-box-shadow: 0 3px 9px 0 #39140014;
   box-shadow: 0 3px 9px 0 #39140014;
   outline-style: none;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #fff;
   font-family: Epilogue;
@@ -1643,10 +2191,16 @@ button:focus {
   border: 1px solid #ef6d58;
   color: #fff;
   text-transform: uppercase;
+  -webkit-box-shadow: 0 3px 9px 0 #39140014;
   box-shadow: 0 3px 9px 0 #39140014
 }
 .sub-footer-section .faq-section .faq-section-wrap .text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .sub-footer-section .faq-section .faq-section-wrap .text-section .sub-heading {
@@ -1706,14 +2260,21 @@ button:focus {
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion > .button {
   width: 100%;
   height: 113px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 0 41px 0 48px;
   gap: 0px;
   opacity: 0px;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   align-items: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: inherit;
   font-size: 24px;
@@ -1726,7 +2287,9 @@ button:focus {
   background-image: url(https://iili.io/JwNLpRI.png);
   min-width: 32px;
   min-height: 32px;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center
 }
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion > .button.active .icon {
@@ -1735,6 +2298,8 @@ button:focus {
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion > section {
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height .2s ease-out;
+  -o-transition: max-height .2s ease-out;
   transition: max-height .2s ease-out;
   will-change: auto;
   padding: 0 41px 0 48px;
@@ -1745,9 +2310,15 @@ button:focus {
   text-align: left
 }
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion {
+  -webkit-box-shadow: 0 32px 64px 0 #3914000A;
   box-shadow: 0 32px 64px 0 #3914000A;
   border: 1px solid #f3d1bf;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-bottom: none
 }
@@ -1761,8 +2332,13 @@ button:focus {
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion.active {
   background: #fff;
   padding: 41px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 35px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion:has(>.button.active) {
@@ -1773,28 +2349,43 @@ button:focus {
 }
 .sub-footer-section .used-by-section {
   position: relative;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   top: 586px;
   overflow: hidden
 }
 .sub-footer-section .used-by-section .used-by-section-wrap .item {
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center
 }
 .sub-footer-section .used-by-section .used-by-section-wrap {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .sub-footer-section .used-by-section .awards-wrap .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border-bottom: 1px solid #f3d1bf;
   padding: 15px 0 16px 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%
 }
 .sub-footer-section .used-by-section .awards-wrap .item .award {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 24px;
   width: 300px;
@@ -1821,8 +2412,14 @@ button:focus {
   line-height: 32px;
   text-align: right;
   color: #391400;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 24px;
   width: 300px
@@ -1831,14 +2428,26 @@ button:focus {
   border-top: 1px solid #f3d1bf
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .heading-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .heading-container .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 20px;
   max-width: 318px
@@ -1876,21 +2485,32 @@ button:focus {
   border-radius: 6px;
   background: #fff;
   border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-shadow: 0 3px 9px 0 #39140014;
   box-shadow: 0 3px 9px 0 #39140014;
   cursor: pointer
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .blog-items {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 30px;
   margin-top: 64px
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .blog-items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
   flex: 1 1 0;
   cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .blog-items .item .blog-item-image {
@@ -1927,16 +2547,28 @@ button:focus {
   min-width: 570px;
   gap: 0px;
   opacity: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 6px;
   background: #fff;
   padding: 57px 48px 48px 48px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .sub-heading {
@@ -1949,6 +2581,7 @@ button:focus {
   text-align: left;
   text-transform: uppercase;
   color: #ef6d58;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading {
@@ -1972,7 +2605,11 @@ button:focus {
   max-width: 470px
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .point-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 16px;
   margin-bottom: 16px
@@ -1998,6 +2635,7 @@ button:focus {
   height: 48px;
   border-radius: 6px;
   border: 1px solid #f3d1bf;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #391400;
   font-size: 16px;
@@ -2016,6 +2654,7 @@ button:focus {
   border: 1px solid #f3d1bf;
   outline-style: none;
   border-radius: 6px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 8px 16px;
   color: #391400;
@@ -2028,7 +2667,11 @@ button:focus {
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button {
@@ -2045,14 +2688,61 @@ button:focus {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #ef6d58;
   border-radius: 6px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
   transition: .3s
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .button-wrap button:hover {
   color: #ef6d58;
   background: 0 0
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #391400A3;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #391400A3;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #391400A3;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #391400A3;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left
 }
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form textarea::placeholder {
   font-size: 16px;
@@ -2088,6 +2778,38 @@ button:focus {
   background-position-x: 96%;
   background-position-y: 22px
 }
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::-moz-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field:-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
 .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form .input-field::placeholder {
   font-family: inherit;
   font-size: 16px;
@@ -2096,19 +2818,49 @@ button:focus {
   text-align: left;
   color: #391400A3
 }
+.footer-section .help-to-build .help-to-build-wrap .footer-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 89px 0 68px 0
+}
+.footer-section .help-to-build .help-to-build-wrap .horizontal-partition {
+  width: 100%;
+  height: 1px;
+  gap: 0px;
+  opacity: 0px;
+  background: #f3d1bf;
+  margin-bottom: 43px
+}
 .footer-section .help-to-build .help-to-build-wrap .help-build-box {
   width: 100%;
   padding: 41px 100px 71px 100px;
   background: #ef6d58;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 56px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 6px
 }
 .footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column
 }
 .footer-section .help-to-build .help-to-build-wrap .help-build-box .text-section .main-heading {
@@ -2138,6 +2890,7 @@ button:focus {
   font-size: 14px;
   font-weight: 900;
   border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   text-transform: uppercase;
   cursor: pointer;
@@ -2152,11 +2905,118 @@ button:focus {
   border-radius: 6px
 }
 .footer-section .help-to-build .help-to-build-wrap .help-build-box .illustration {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
   max-width: 443.75px;
   height: auto
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .logo {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  gap: 250px
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .menu,
+.footer-section .help-to-build .help-to-build-wrap .footer-details .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .menu .heading,
+.footer-section .help-to-build .help-to-build-wrap .footer-details .service .heading {
+  margin-bottom: 16px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ef6d58;
+  position: relative;
+  left: -50px
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .menu .items,
+.footer-section .help-to-build .help-to-build-wrap .footer-details .service .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0 0;
+  position: relative;
+  left: -50px
+}
+.footer-section .help-to-build .help-to-build-wrap .footer-details .menu .items li,
+.footer-section .help-to-build .help-to-build-wrap .footer-details .service .items li {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  cursor: pointer
+}
+.footer-section .help-to-build .help-to-build-wrap .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  width: 100%
+}
+.footer-section .help-to-build .help-to-build-wrap .copyright .left {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400A3
+}
+.footer-section .help-to-build .help-to-build-wrap .copyright .right {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #391400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 68px
 }
 @media (max-width:1300px) {
   .blog-and-newsletter-section .blog-section .blog-section-wrap,
@@ -2188,12 +3048,14 @@ button:focus {
     width: 400px;
     height: 360px;
     position: relative;
+    -o-object-fit: contain;
     object-fit: contain;
     background-repeat: no-repeat
   }
   .mid-section .video-reel-section .video-reel-section-wrap .video-reel-element {
     width: 400px;
     height: 360px;
+    -o-object-fit: contain;
     object-fit: contain;
     background-repeat: no-repeat
   }
@@ -2221,6 +3083,8 @@ button:focus {
     top: -130px
   }
   .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100px
   }
@@ -2258,6 +3122,8 @@ button:focus {
     margin-top: -40px
   }
   .top-section .navbar .menu-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     cursor: pointer
   }
@@ -2271,7 +3137,11 @@ button:focus {
     display: none
   }
   .top-section .banner .banner-content-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-flow: column-reverse;
     flex-flow: column-reverse
   }
   .top-section .banner .content,
@@ -2298,11 +3168,18 @@ button:focus {
     text-align: left
   }
   .top-section .banner .content .action-btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center
   }
   .top-section .features-section .features-section-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 50px
   }
@@ -2321,7 +3198,12 @@ button:focus {
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .more-about-section,
   .top-section .webflow-section .webflow-section-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 30px
   }
@@ -2362,6 +3244,9 @@ button:focus {
     top: -120px
   }
   .mid-section .how-i-am-work-section .how-i-am-work-section-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .mid-section .how-i-am-work-section .how-i-am-work-section-wrap .list-section,
@@ -2395,6 +3280,9 @@ button:focus {
     padding: 30px 20px
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 0
   }
@@ -2406,6 +3294,7 @@ button:focus {
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text,
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .paragraph {
     padding: 0 32px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .get-started .intro-text {
@@ -2428,6 +3317,9 @@ button:focus {
     height: auto
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .testimonials-section .row .item:nth-child(4) {
@@ -2460,7 +3352,12 @@ button:focus {
     border-left: 1px solid #f3d1bf
   }
   .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .item {
@@ -2480,6 +3377,9 @@ button:focus {
     border-radius: 0px 0px 6px 6px
   }
   .sub-footer-section .faq-section .faq-section-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .sub-footer-section .faq-section .faq-section-wrap .accordion-section,
@@ -2489,19 +3389,24 @@ button:focus {
   .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion > .button,
   .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion > section {
     padding-left: 28px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-right: 28px
   }
   .sub-footer-section .faq-section .faq-section-wrap .accordion-section .accordion .icon {
     min-width: 32px;
     min-height: 32px;
+    -o-object-fit: contain;
     object-fit: contain;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     height: 32px;
+    -o-object-position: center;
     object-position: center
   }
   .sub-footer-section .used-by-section {
     position: relative;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     top: 526px;
     overflow: hidden
@@ -2514,11 +3419,19 @@ button:focus {
     width: 150px
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .heading-container {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     gap: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .blog-items .item,
@@ -2526,6 +3439,9 @@ button:focus {
     width: 100%
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .blog-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .blog-and-newsletter-section .blog-section {
@@ -2536,12 +3452,16 @@ button:focus {
     line-height: 48px
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .form,
   .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section {
     width: 100%;
     min-width: 100%;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box
   }
   .blog-and-newsletter-section .blog-section .blog-section-wrap .get-in-touch-section .text-section .main-heading {
@@ -2554,7 +3474,11 @@ button:focus {
     color: #fff
   }
   .footer-section .help-to-build .help-to-build-wrap .help-build-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-flow: column-reverse;
     flex-flow: column-reverse;
     padding: 32px 28px
   }
@@ -2572,6 +3496,9 @@ button:focus {
   .mid-section .acheivement-section .acheievement-section-wrap,
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap,
   .top-section .features-section .features-section-wrap .main-features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .mid-section .webflow-expert-stages .webflow-expert-stages-wrap .item {
@@ -2581,7 +3508,12 @@ button:focus {
     border-radius: 6px 6px 0px 0px;
     border: 1px 0 0 0;
     opacity: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%
   }
@@ -2623,7 +3555,10 @@ button:focus {
     width: 100%;
     height: 176px;
     gap: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 40px
   }
@@ -2644,9 +3579,14 @@ button:focus {
     display: none
   }
   .mid-section .portfolio-section .portfolio-section-wrap .portfolio-select-dropdown select {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row .item {
@@ -2659,6 +3599,9 @@ button:focus {
     display: none
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .mid-section-extended .portfolio-works-sample-section .portfolio-works-sample-wrap .row:nth-child(2) {
@@ -2677,30 +3620,93 @@ button:focus {
     margin-bottom: 50px
   }
   .sub-footer-section .used-by-section .used-by-section-wrap .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex
   }
   .sub-footer-section .used-by-section .used-by-section-wrap {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     gap: 30px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center
   }
   .sub-footer-section .used-by-section .awards-wrap .item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column
   }
   .sub-footer-section .used-by-section .awards-wrap .item .award,
   .sub-footer-section .used-by-section .awards-wrap .item .category {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center
   }
   .sub-footer-section .used-by-section .awards-wrap .item .date {
     width: 150px
   }
+  .footer-section .help-to-build .help-to-build-wrap .footer-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 48px
+  }
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .logo,
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .menu .items li,
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .service .items li {
+    text-align: center
+  }
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .menu .heading,
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .service .heading {
+    left: auto;
+    text-align: center
+  }
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .menu .items,
+  .footer-section .help-to-build .help-to-build-wrap .footer-details .service .items {
+    left: auto;
+    text-align: center
+  }
+  .footer-section .help-to-build .help-to-build-wrap .copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+  .footer-section .help-to-build .help-to-build-wrap .copyright .left,
+  .footer-section .help-to-build .help-to-build-wrap .copyright .right .policy,
+  .footer-section .help-to-build .help-to-build-wrap .copyright .right .terms {
+    text-align: center
+  }
 }
 @media (max-width:600px) {
   .mid-section .video-reel-section .video-reel-section-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 35px
   }

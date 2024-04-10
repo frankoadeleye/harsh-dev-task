@@ -15,14 +15,16 @@
   }
 })();
 /* __________________________________________________ ACTIVE-TAB _______________________________________________ */
-function activeTab(itemList) {
-  let acctOptions = document.querySelectorAll(itemList);
+function activeTab(itemListClass, itemCommonClass) {
+  let acctOptions = document.querySelectorAll(itemListClass);
   for (var i = 0; i < acctOptions.length; i++) {
     acctOptions[i].addEventListener("click", function () {
-      var current = document.getElementsByClassName("active");
+      var current = document.getElementsByClassName(`${itemCommonClass} active`);
       current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
+      const parentElement = this.closest(`.${itemCommonClass}`);
+      parentElement.className += " active";
     });
   }
 }
-activeTab(`.top-section .features-section .features-section-wrap .main-features .feature-item`);
+activeTab(`.top-section .features-section .features-section-wrap .main-features .feature-item`,'feature-item');
+activeTab(`.sub-footer-section .pricing-section .pricing-section-wrap .items-wrap .pricing-item`,'pricing-item');
